@@ -1,1941 +1,1934 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de Eisenhower PRO</title>
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Gestión inteligente de tareas con IA usando la Matriz de Eisenhower">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Eisenhower PRO">
+    
+    <!-- PWA Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiBmaWxsPSIjMDAwMDAwIiByeD0iMjQiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KICA8cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNFRjQ0NDQiIHJ4PSIyIi8+CiAgPHJlY3QgeD0iMTQiIHk9IjAiIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgZmlsbD0iIzEwQjk4MSIgcng9IjIiLz4KICA8cmVjdCB4PSIwIiB5PSIxNCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjRjU5RTBCIiByeD0iMiIvPgogIDxyZWN0IHg9IjE0IiB5PSIxNCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjOEI1Q0Y2IiByeD0iMiIvPgo8L3N2Zz4KPC9zdmc+">
+    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiBmaWxsPSIjMDAwMDAwIiByeD0iMjQiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KICA8cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNFRjQ0NDQiIHJ4PSIyIi8+CiAgPHJlY3QgeD0iMTQiIHk9IjAiIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgZmlsbD0iIzEwQjk4MSIgcng9IjIiLz4KICA8cmVjdCB4PSIwIiB5PSIxNCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjRjU5RTBCIiByeD0iMiIvPgogIDxyZWN0IHg9IjE0IiB5PSIxNCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjOEI1Q0Y2IiByeD0iMiIvPgo8L3N2Zz4KPC9zdmc+">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIk1hdHJpeiBkZSBFaXNlbmhvd2VyIFBSTyIsCiAgInNob3J0X25hbWUiOiAiRWlzZW5ob3dlciIsCiAgImRlc2NyaXB0aW9uIjogIkdlc3Rpw7NuIGludGVsaWdlbnRlIGRlIHRhcmVhcyBjb24gSUEgdXNhbmRvIGxhIE1hdHJpeiBkZSBFaXNlbmhvd2VyIiwKICAic3RhcnRfdXJsIjogIi8iLAogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiMwMDAwMDAiLAogICJ0aGVtZV9jb2xvciI6ICIjMDAwMDAwIiwKICAib3JpZW50YXRpb24iOiAicG9ydHJhaXQiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUIzYVdSMGFEMGlNVGt5SWlCb1pXbG5hSFE5SWpFNU1pSWlkbWxsZDBKdmVEMGlNQ0F3SURFNU1pQXhPVElpSUdacGJHdzlJbTV2Ym1VaUlIaHRiRzV6UFNKb2RIUndPaTh2ZDNkM0xuY3pMbTl5Wnk4eU1EQXdMM04yWnlJK0NqeHlaV04wSUhkcFpIUm9QU0l4T1RJaUlHaGxhV2RvZEQwaU1Ua3lJaUJtYVd4c1BTSWpNREF3TURBd0lpQnllRDBpTWpRaUx6NEtQSE4yWnlCNFBTSTBPQ0lnZVQwaU5EZ2lJSGRwWkhSb1BTSTVOR2tpSUdobGFXZG9kRDBpT1RSaUlpQjJhV1YzUW05NFBTSXdJREFnTWpRZ01qUWlJR1pwYkd3OUltNXZibVVpUGdvZ0lEeHlaV04wSUhkcFpIUm9QU0l4TUNJZ2FHVnBaMmgwUFNJeE1DSWdabWxzYkQwaUkwVkdORFEwTkNJZ2NuZzlJaklpTHo0S0lDQThjbVZqZENCNFBTSXhOQ0lnZVQwaU1DSWdkMmxrZEdnOUlqRXdJaUJvWldsbmFIUTlJakV3SWlCbWFXeHNQU0lqTVRCQ09UZ3hJaUJ5ZUQwaU1pSXZQZ29nSUR4eVpXTjBJSGc5SWpBaUlIazlJakUwSWlCM2FXUjBhRDBpTVRBaUlHaGxhV2RvZEQwaU1UQWlJR1pwYkd3OUlpTkdOVGxGTUVJaUlISjRQU0l5SWk4K0NpQWdQSEpsWTNRZ2VEMGlNVFFpSUhrOUlqRTBJaUIzYVdSMGFEMGlNVEFpSUdobGFXZG9kRDBpTVRBaUlHWnBiR3c5SWlONFFqVkRSalpHSWlCeWVEMGlNaUl2UGdvOEwzTjJaejRLUEM5emRtYytDZz09IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwKICAgICAgInB1cnBvc2UiOiAibWFza2FibGUgYW55IgogICAgfQogIF0KfQ==">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap');
 
-\f0\fs24 \cf0 <!DOCTYPE html>\
-<html lang="es">\
-<head>\
-    <meta charset="UTF-8">\
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
-    <title>Matriz de Eisenhower PRO</title>\
-    \
-    <!-- PWA Meta Tags -->\
-    <meta name="theme-color" content="#000000">\
-    <meta name="description" content="Gesti\'f3n inteligente de tareas con IA usando la Matriz de Eisenhower">\
-    <meta name="apple-mobile-web-app-capable" content="yes">\
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">\
-    <meta name="apple-mobile-web-app-title" content="Eisenhower PRO">\
-    \
-    <!-- PWA Icons -->\
-    <link rel="icon" type="image/png" sizes="192x192" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiBmaWxsPSIjMDAwMDAwIiByeD0iMjQiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KICA8cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNFRjQ0NDQiIHJ4PSIyIi8+CiAgPHJlY3QgeD0iMTQiIHk9IjAiIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgZmlsbD0iIzEwQjk4MSIgcng9IjIiLz4KICA8cmVjdCB4PSIwIiB5PSIxNCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjRjU5RTBCIiByeD0iMiIvPgogIDxyZWN0IHg9IjE0IiB5PSIxNCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjOEI1Q0Y2IiByeD0iMiIvPgo8L3N2Zz4KPC9zdmc+">\
-    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiBmaWxsPSIjMDAwMDAwIiByeD0iMjQiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KICA8cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNFRjQ0NDQiIHJ4PSIyIi8+CiAgPHJlY3QgeD0iMTQiIHk9IjAiIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgZmlsbD0iIzEwQjk4MSIgcng9IjIiLz4KICA8cmVjdCB4PSIwIiB5PSIxNCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjRjU5RTBCIiByeD0iMiIvPgogIDxyZWN0IHg9IjE0IiB5PSIxNCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjOEI1Q0Y2IiByeD0iMiIvPgo8L3N2Zz4KPC9zdmc+">\
-    \
-    <!-- PWA Manifest -->\
-    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIk1hdHJpeiBkZSBFaXNlbmhvd2VyIFBSTyIsCiAgInNob3J0X25hbWUiOiAiRWlzZW5ob3dlciIsCiAgImRlc2NyaXB0aW9uIjogIkdlc3Rpw7NuIGludGVsaWdlbnRlIGRlIHRhcmVhcyBjb24gSUEgdXNhbmRvIGxhIE1hdHJpeiBkZSBFaXNlbmhvd2VyIiwKICAic3RhcnRfdXJsIjogIi8iLAogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiMwMDAwMDAiLAogICJ0aGVtZV9jb2xvciI6ICIjMDAwMDAwIiwKICAib3JpZW50YXRpb24iOiAicG9ydHJhaXQiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUIzYVdSMGFEMGlNVGt5SWlCb1pXbG5hSFE5SWpFNU1pSWlkbWxsZDBKdmVEMGlNQ0F3SURFNU1pQXhPVElpSUdacGJHdzlJbTV2Ym1VaUlIaHRiRzV6UFNKb2RIUndPaTh2ZDNkM0xuY3pMbTl5Wnk4eU1EQXdMM04yWnlJK0NqeHlaV04wSUhkcFpIUm9QU0l4T1RJaUlHaGxhV2RvZEQwaU1Ua3lJaUJtYVd4c1BTSWpNREF3TURBd0lpQnllRDBpTWpRaUx6NEtQSE4yWnlCNFBTSTBPQ0lnZVQwaU5EZ2lJSGRwWkhSb1BTSTVOR2tpSUdobGFXZG9kRDBpT1RSaUlpQjJhV1YzUW05NFBTSXdJREFnTWpRZ01qUWlJR1pwYkd3OUltNXZibVVpUGdvZ0lEeHlaV04wSUhkcFpIUm9QU0l4TUNJZ2FHVnBaMmgwUFNJeE1DSWdabWxzYkQwaUkwVkdORFEwTkNJZ2NuZzlJaklpTHo0S0lDQThjbVZqZENCNFBTSXhOQ0lnZVQwaU1DSWdkMmxrZEdnOUlqRXdJaUJvWldsbmFIUTlJakV3SWlCbWFXeHNQU0lqTVRCQ09UZ3hJaUJ5ZUQwaU1pSXZQZ29nSUR4eVpXTjBJSGc5SWpBaUlIazlJakUwSWlCM2FXUjBhRDBpTVRBaUlHaGxhV2RvZEQwaU1UQWlJR1pwYkd3OUlpTkdOVGxGTUVJaUlISjRQU0l5SWk4K0NpQWdQSEpsWTNRZ2VEMGlNVFFpSUhrOUlqRTBJaUIzYVdSMGFEMGlNVEFpSUdobGFXZG9kRDBpTVRBaUlHWnBiR3c5SWlONFFqVkRSalpHSWlCeWVEMGlNaUl2UGdvOEwzTjJaejRLUEM5emRtYytDZz09IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwKICAgICAgInB1cnBvc2UiOiAibWFza2FibGUgYW55IgogICAgfQogIF0KfQ==">\
-    \
-    <style>\
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');\
-        @import url('https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap');\
-\
-        :root \{\
-            --background: #000000;\
-            --text-primary: #FFFFFF;\
-            --text-secondary: #666666;\
-            --accent-blue: #3B82F6;\
-            --accent-blue-hover: #60A5FA;\
-            --border: #1a1a1a;\
-            --card-bg: rgba(255, 255, 255, 0.02);\
-            --card-bg-opaque: rgba(255, 255, 255, 0.05);\
-            --accent-red: #EF4444;\
-            --accent-green: #10B981;\
-            --accent-orange: #F59E0B;\
-            --accent-purple: #8B5CF6;\
-            --hover-bg: rgba(255, 255, 255, 0.05);\
-            --glass-bg: rgba(255, 255, 255, 0.03);\
-        \}\
-\
-        * \{\
-            margin: 0;\
-            padding: 0;\
-            box-sizing: border-box;\
-        \}\
-\
-        body \{\
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;\
-            background: var(--background);\
-            color: var(--text-primary);\
-            line-height: 1.6;\
-            font-weight: 400;\
-            -webkit-font-smoothing: antialiased;\
-            position: relative;\
-            overflow-x: hidden;\
-        \}\
-\
-        /* Install PWA Banner */\
-        .install-banner \{\
-            position: fixed;\
-            top: 0;\
-            left: 0;\
-            right: 0;\
-            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));\
-            color: white;\
-            padding: 12px 16px;\
-            display: none;\
-            align-items: center;\
-            justify-content: space-between;\
-            z-index: 1000;\
-            font-size: 0.9rem;\
-            box-shadow: 0 4px 20px rgba(0,0,0,0.3);\
-        \}\
-\
-        .install-banner.show \{\
-            display: flex;\
-        \}\
-\
-        .install-banner button \{\
-            background: rgba(255,255,255,0.2);\
-            border: 1px solid rgba(255,255,255,0.3);\
-            color: white;\
-            padding: 8px 16px;\
-            border-radius: 8px;\
-            cursor: pointer;\
-            font-weight: 500;\
-            margin-left: 12px;\
-            transition: all 0.3s ease;\
-        \}\
-\
-        .install-banner button:hover \{\
-            background: rgba(255,255,255,0.3);\
-        \}\
-\
-        .install-banner .close-btn \{\
-            background: transparent;\
-            border: none;\
-            color: white;\
-            font-size: 1.2rem;\
-            padding: 4px;\
-            margin-left: 8px;\
-        \}\
-\
-        /* Share Button */\
-        .share-section \{\
-            margin-top: 16px;\
-            padding-top: 16px;\
-            border-top: 1px solid var(--border);\
-        \}\
-\
-        .share-btn \{\
-            background: var(--accent-purple);\
-            color: var(--text-primary);\
-            border: none;\
-            padding: 12px 16px;\
-            border-radius: 12px;\
-            font-size: 0.75rem;\
-            font-weight: 500;\
-            cursor: pointer;\
-            transition: all 0.3s ease;\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-            width: 100%;\
-            margin-bottom: 8px;\
-        \}\
-\
-        .share-btn:hover \{\
-            background: #A855F7;\
-        \}\
-\
-        /* Retrato humano de fondo */\
-        body::before \{\
-            content: '';\
-            position: fixed;\
-            top: 0;\
-            left: 0;\
-            right: 0;\
-            bottom: 0;\
-            background: \
-                radial-gradient(circle at 30% 40%, rgba(59, 130, 246, 0.03) 0%, transparent 50%),\
-                radial-gradient(circle at 70% 60%, rgba(139, 92, 246, 0.02) 0%, transparent 50%);\
-            pointer-events: none;\
-            z-index: -2;\
-        \}\
-\
-        /* Efecto de retrato abstracto */\
-        body::after \{\
-            content: '';\
-            position: fixed;\
-            top: 10%;\
-            right: -10%;\
-            width: 60%;\
-            height: 80%;\
-            background: linear-gradient(\
-                45deg,\
-                transparent 0%,\
-                rgba(255, 255, 255, 0.01) 20%,\
-                rgba(255, 255, 255, 0.02) 40%,\
-                transparent 60%,\
-                rgba(255, 255, 255, 0.01) 80%,\
-                transparent 100%\
-            );\
-            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);\
-            filter: blur(1px);\
-            pointer-events: none;\
-            z-index: -1;\
-            opacity: 0.3;\
-        \}\
-\
-        .app-container \{\
-            max-width: 1600px;\
-            margin: 0 auto;\
-            min-height: 100vh;\
-            display: grid;\
-            grid-template-rows: auto 1fr auto;\
-            gap: 40px;\
-            padding: 32px;\
-            position: relative;\
-            z-index: 1;\
-        \}\
-\
-        /* Ajustes cuando hay banner de instalaci\'f3n */\
-        body.has-install-banner .app-container \{\
-            padding-top: 80px;\
-        \}\
-\
-        /* Header minimalista con nueva tipograf\'eda */\
-        .header \{\
-            text-align: center;\
-            padding: 24px 0;\
-        \}\
-\
-        .header h1 \{\
-            font-family: 'Anton', 'Impact', -apple-system, BlinkMacSystemFont, sans-serif;\
-            font-size: clamp(3rem, 5vw, 5rem);\
-            font-weight: 400;\
-            background: linear-gradient(135deg, #FFFFFF 0%, #666666 100%);\
-            -webkit-background-clip: text;\
-            -webkit-text-fill-color: transparent;\
-            background-clip: text;\
-            margin-bottom: 12px;\
-            letter-spacing: -0.01em;\
-            text-transform: uppercase;\
-        \}\
-\
-        .header p \{\
-            font-size: 1rem;\
-            color: var(--text-secondary);\
-            font-weight: 300;\
-        \}\
-\
-        /* Timeline card minimalista */\
-        .timeline-card \{\
-            background: var(--glass-bg);\
-            border: 1px solid var(--border);\
-            border-radius: 16px;\
-            padding: 32px;\
-            margin: 32px auto 0;\
-            max-width: 500px;\
-            backdrop-filter: blur(20px);\
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\
-        \}\
-\
-        .timeline-card h4 \{\
-            font-size: 0.8rem;\
-            font-weight: 500;\
-            color: var(--text-secondary);\
-            margin-bottom: 20px;\
-            text-transform: uppercase;\
-            letter-spacing: 0.1em;\
-        \}\
-\
-        .timeline-bar \{\
-            background: var(--border);\
-            border-radius: 8px;\
-            height: 2px;\
-            margin: 20px 0;\
-            overflow: hidden;\
-        \}\
-\
-        .timeline-progress \{\
-            background: var(--accent-blue);\
-            height: 100%;\
-            border-radius: 8px;\
-            transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);\
-        \}\
-\
-        /* Layout principal */\
-        .main-layout \{\
-            display: grid;\
-            grid-template-columns: 320px 1fr;\
-            gap: 40px;\
-            min-height: calc(100vh - 280px);\
-        \}\
-\
-        /* Sidebar */\
-        .sidebar \{\
-            display: grid;\
-            grid-template-rows: auto auto auto 1fr;\
-            gap: 20px;\
-        \}\
-\
-        .bento-card \{\
-            background: var(--glass-bg);\
-            border: 1px solid var(--border);\
-            border-radius: 16px;\
-            padding: 24px;\
-            backdrop-filter: blur(20px);\
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);\
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\
-        \}\
-\
-        .bento-card:hover \{\
-            background: var(--card-bg-opaque);\
-            border-color: rgba(255, 255, 255, 0.1);\
-        \}\
-\
-        .bento-card h3 \{\
-            font-size: 0.75rem;\
-            font-weight: 500;\
-            color: var(--text-secondary);\
-            margin-bottom: 20px;\
-            text-transform: uppercase;\
-            letter-spacing: 0.1em;\
-        \}\
-\
-        /* API Configuration - Redise\'f1ada para fondo negro */\
-        .api-section \{\
-            background: var(--glass-bg);\
-        \}\
-\
-        .api-input-group \{\
-            background: rgba(255, 255, 255, 0.02);\
-            border: 1px solid var(--border);\
-            border-radius: 12px;\
-            padding: 16px;\
-            margin-bottom: 12px;\
-            transition: all 0.3s ease;\
-        \}\
-\
-        .api-input-group:focus-within \{\
-            border-color: var(--accent-blue);\
-            background: rgba(255, 255, 255, 0.04);\
-        \}\
-\
-        .api-input-group label \{\
-            display: block;\
-            font-size: 0.7rem;\
-            font-weight: 500;\
-            color: var(--text-secondary);\
-            margin-bottom: 8px;\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-        \}\
-\
-        .form-input \{\
-            width: 100%;\
-            padding: 8px 0;\
-            border: none;\
-            background: transparent;\
-            font-size: 14px;\
-            color: var(--text-primary);\
-            font-family: inherit;\
-            font-weight: 300;\
-        \}\
-\
-        .form-input:focus \{\
-            outline: none;\
-        \}\
-\
-        .form-input::placeholder \{\
-            color: rgba(255, 255, 255, 0.3);\
-        \}\
-\
-        /* Textarea para contexto */\
-        .form-textarea \{\
-            width: 100%;\
-            padding: 14px 16px;\
-            border: 1px solid var(--border);\
-            background: rgba(255, 255, 255, 0.02);\
-            border-radius: 12px;\
-            font-size: 14px;\
-            color: var(--text-primary);\
-            font-family: inherit;\
-            font-weight: 300;\
-            resize: vertical;\
-            min-height: 80px;\
-            transition: all 0.3s ease;\
-        \}\
-\
-        .form-textarea:focus \{\
-            outline: none;\
-            border-color: var(--accent-blue);\
-            background: rgba(255, 255, 255, 0.04);\
-        \}\
-\
-        .form-textarea::placeholder \{\
-            color: rgba(255, 255, 255, 0.3);\
-        \}\
-\
-        .api-status \{\
-            text-align: center;\
-            padding: 8px;\
-            border-radius: 8px;\
-            margin-top: 12px;\
-            font-weight: 500;\
-            font-size: 0.7rem;\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-        \}\
-\
-        .api-status.connected \{\
-            background: rgba(16, 185, 129, 0.1);\
-            color: var(--accent-green);\
-            border: 1px solid rgba(16, 185, 129, 0.2);\
-        \}\
-\
-        .api-status.error \{\
-            background: rgba(239, 68, 68, 0.1);\
-            color: var(--accent-red);\
-            border: 1px solid rgba(239, 68, 68, 0.2);\
-        \}\
-\
-        /* Formularios */\
-        .form-group \{\
-            margin-bottom: 16px;\
-        \}\
-\
-        .form-group label \{\
-            display: block;\
-            font-size: 0.7rem;\
-            font-weight: 500;\
-            color: var(--text-secondary);\
-            margin-bottom: 8px;\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-        \}\
-\
-        .form-group .form-input \{\
-            background: rgba(255, 255, 255, 0.02);\
-            border: 1px solid var(--border);\
-            border-radius: 12px;\
-            padding: 14px 16px;\
-            transition: all 0.3s ease;\
-            font-size: 14px;\
-        \}\
-\
-        .form-group .form-input:focus \{\
-            border-color: var(--accent-blue);\
-            background: rgba(255, 255, 255, 0.04);\
-        \}\
-\
-        /* Bot\'f3n principal redise\'f1ado */\
-        .primary-btn \{\
-            background: var(--accent-blue);\
-            color: var(--text-primary);\
-            border: none;\
-            padding: 14px 20px;\
-            border-radius: 12px;\
-            cursor: pointer;\
-            font-size: 0.8rem;\
-            font-weight: 500;\
-            width: 100%;\
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-            position: relative;\
-            overflow: hidden;\
-            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.2);\
-        \}\
-\
-        .primary-btn:hover \{\
-            background: var(--accent-blue-hover);\
-            box-shadow: 0 6px 25px rgba(59, 130, 246, 0.3);\
-        \}\
-\
-        .primary-btn:disabled \{\
-            opacity: 0.3;\
-            cursor: not-allowed;\
-            background: var(--text-secondary);\
-        \}\
-\
-        /* Loading state minimalista */\
-        .loading \{\
-            display: none;\
-            text-align: center;\
-            color: var(--text-secondary);\
-            font-weight: 300;\
-            margin: 16px 0;\
-            padding: 16px;\
-            background: var(--glass-bg);\
-            border-radius: 12px;\
-            font-size: 0.8rem;\
-        \}\
-\
-        /* Estad\'edsticas minimalistas */\
-        .stats-section \{\
-            display: grid;\
-            gap: 16px;\
-        \}\
-\
-        .progress-item \{\
-            margin-bottom: 20px;\
-        \}\
-\
-        .progress-label \{\
-            display: flex;\
-            justify-content: space-between;\
-            align-items: center;\
-            margin-bottom: 8px;\
-            font-size: 0.7rem;\
-            font-weight: 500;\
-            color: var(--text-secondary);\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-        \}\
-\
-        .progress-bar \{\
-            background: var(--border);\
-            border-radius: 4px;\
-            height: 2px;\
-            overflow: hidden;\
-        \}\
-\
-        .progress-fill \{\
-            height: 100%;\
-            border-radius: 4px;\
-            transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);\
-        \}\
-\
-        .progress-fill.global \{ background: var(--text-primary); \}\
-        .progress-fill.urgent-important \{ background: var(--accent-red); \}\
-        .progress-fill.not-urgent-important \{ background: var(--accent-green); \}\
-        .progress-fill.urgent-not-important \{ background: var(--accent-orange); \}\
-        .progress-fill.not-urgent-not-important \{ background: var(--accent-purple); \}\
-\
-        .stats-grid \{\
-            display: grid;\
-            grid-template-columns: repeat(2, 1fr);\
-            gap: 12px;\
-            margin-top: 20px;\
-        \}\
-\
-        .stat-card \{\
-            background: var(--glass-bg);\
-            padding: 16px;\
-            border-radius: 12px;\
-            text-align: center;\
-            border: 1px solid var(--border);\
-        \}\
-\
-        .stat-number \{\
-            font-size: 1.8rem;\
-            font-weight: 300;\
-            color: var(--text-primary);\
-            margin-bottom: 4px;\
-        \}\
-\
-        .stat-label \{\
-            font-size: 0.65rem;\
-            color: var(--text-secondary);\
-            font-weight: 500;\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-        \}\
-\
-        /* Matriz principal */\
-        .matrix-container \{\
-            background: var(--glass-bg);\
-            border: 1px solid var(--border);\
-            border-radius: 16px;\
-            padding: 32px;\
-            backdrop-filter: blur(20px);\
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);\
-            position: relative;\
-        \}\
-\
-        .matrix-grid \{\
-            display: grid;\
-            grid-template-columns: repeat(2, 1fr);\
-            gap: 20px;\
-            height: 100%;\
-        \}\
-\
-        .quadrant \{\
-            background: var(--glass-bg);\
-            border: 1px solid var(--border);\
-            border-radius: 16px;\
-            padding: 20px;\
-            display: flex;\
-            flex-direction: column;\
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\
-            position: relative;\
-            overflow: hidden;\
-            min-height: 350px;\
-            backdrop-filter: blur(20px);\
-        \}\
-\
-        .quadrant:hover \{\
-            background: var(--card-bg-opaque);\
-            border-color: rgba(255, 255, 255, 0.1);\
-        \}\
-\
-        .quadrant::before \{\
-            content: '';\
-            position: absolute;\
-            top: 0;\
-            left: 0;\
-            right: 0;\
-            height: 2px;\
-        \}\
-\
-        .quadrant-1::before \{ background: var(--accent-red); \}\
-        .quadrant-2::before \{ background: var(--accent-green); \}\
-        .quadrant-3::before \{ background: var(--accent-orange); \}\
-        .quadrant-4::before \{ background: var(--accent-purple); \}\
-\
-        .quadrant-header \{\
-            margin-bottom: 20px;\
-            padding-bottom: 16px;\
-            border-bottom: 1px solid var(--border);\
-        \}\
-\
-        .quadrant-title \{\
-            display: flex;\
-            justify-content: space-between;\
-            align-items: flex-start;\
-            margin-bottom: 8px;\
-        \}\
-\
-        .quadrant-actions \{\
-            display: flex;\
-            gap: 8px;\
-            align-items: center;\
-        \}\
-\
-        .clear-quadrant-btn \{\
-            background: rgba(239, 68, 68, 0.1);\
-            border: 1px solid rgba(239, 68, 68, 0.2);\
-            color: var(--accent-red);\
-            padding: 4px 8px;\
-            border-radius: 6px;\
-            font-size: 0.65rem;\
-            font-weight: 500;\
-            cursor: pointer;\
-            transition: all 0.3s ease;\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-            opacity: 0;\
-            transform: scale(0.9);\
-        \}\
-\
-        .reorganize-quadrant-btn \{\
-            background: rgba(139, 92, 246, 0.1);\
-            border: 1px solid rgba(139, 92, 246, 0.2);\
-            color: var(--accent-purple);\
-            padding: 4px 8px;\
-            border-radius: 6px;\
-            font-size: 0.8rem;\
-            cursor: pointer;\
-            transition: all 0.3s ease;\
-            opacity: 0;\
-            transform: scale(0.9);\
-            display: flex;\
-            align-items: center;\
-            justify-content: center;\
-            min-width: 28px;\
-        \}\
-\
-        .quadrant:hover .clear-quadrant-btn,\
-        .quadrant:hover .reorganize-quadrant-btn \{\
-            opacity: 1;\
-            transform: scale(1);\
-        \}\
-\
-        .reorganize-quadrant-btn:hover \{\
-            background: rgba(139, 92, 246, 0.2);\
-            border-color: var(--accent-purple);\
-            transform: scale(1.05);\
-        \}\
-\
-        .clear-quadrant-btn:hover \{\
-            background: rgba(239, 68, 68, 0.2);\
-            border-color: var(--accent-red);\
-        \}\
-\
-        .quadrant-title > div > div:first-child \{\
-            font-size: 1rem;\
-            font-weight: 500;\
-            color: var(--text-primary);\
-            margin-bottom: 4px;\
-        \}\
-\
-        .quadrant-subtitle \{\
-            font-size: 0.7rem;\
-            color: var(--text-secondary);\
-            font-weight: 400;\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-        \}\
-\
-        .task-count \{\
-            background: var(--accent-blue);\
-            color: var(--text-primary);\
-            padding: 4px 8px;\
-            border-radius: 6px;\
-            font-size: 0.7rem;\
-            font-weight: 500;\
-            min-width: 24px;\
-            text-align: center;\
-        \}\
-\
-        .tasks-container \{\
-            flex-grow: 1;\
-            overflow-y: auto;\
-            padding-right: 4px;\
-        \}\
-\
-        .task-item \{\
-            background: rgba(255, 255, 255, 0.02);\
-            margin-bottom: 12px;\
-            padding: 16px;\
-            border-radius: 12px;\
-            border: 1px solid var(--border);\
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\
-            cursor: grab;\
-            position: relative;\
-        \}\
-\
-        .task-item:hover \{\
-            background: var(--hover-bg);\
-            border-color: rgba(255, 255, 255, 0.1);\
-        \}\
-\
-        .task-item.dragging \{\
-            opacity: 0.5;\
-            cursor: grabbing;\
-        \}\
-\
-        .task-item::before \{\
-            content: '';\
-            position: absolute;\
-            left: 0;\
-            top: 0;\
-            bottom: 0;\
-            width: 2px;\
-        \}\
-\
-        .task-item.quadrant-1::before \{ background: var(--accent-red); \}\
-        .task-item.quadrant-2::before \{ background: var(--accent-green); \}\
-        .task-item.quadrant-3::before \{ background: var(--accent-orange); \}\
-        .task-item.quadrant-4::before \{ background: var(--accent-purple); \}\
-\
-        .task-header \{\
-            display: flex;\
-            justify-content: space-between;\
-            align-items: flex-start;\
-            margin-bottom: 12px;\
-        \}\
-\
-        .task-title \{\
-            font-weight: 400;\
-            color: var(--text-primary);\
-            font-size: 0.9rem;\
-            line-height: 1.4;\
-            flex-grow: 1;\
-            margin-right: 12px;\
-        \}\
-\
-        .task-project \{\
-            background: var(--accent-blue);\
-            color: var(--text-primary);\
-            padding: 2px 8px;\
-            border-radius: 4px;\
-            font-size: 0.65rem;\
-            font-weight: 500;\
-            white-space: nowrap;\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-        \}\
-\
-        .task-meta \{\
-            color: var(--text-secondary);\
-            font-size: 0.75rem;\
-            margin-bottom: 12px;\
-            line-height: 1.4;\
-        \}\
-\
-        .task-actions \{\
-            display: flex;\
-            gap: 8px;\
-        \}\
-\
-        .task-btn \{\
-            padding: 6px 12px;\
-            border: 1px solid var(--border);\
-            border-radius: 6px;\
-            font-size: 0.65rem;\
-            font-weight: 500;\
-            cursor: pointer;\
-            transition: all 0.3s ease;\
-            background: rgba(255, 255, 255, 0.02);\
-            color: var(--text-secondary);\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-        \}\
-\
-        .complete-btn:hover \{\
-            background: var(--accent-green);\
-            color: var(--text-primary);\
-            border-color: var(--accent-green);\
-        \}\
-\
-        .complete-btn.completed \{\
-            background: var(--text-secondary);\
-            color: var(--text-primary);\
-            border-color: var(--text-secondary);\
-        \}\
-\
-        .delete-btn:hover \{\
-            background: var(--accent-red);\
-            color: var(--text-primary);\
-            border-color: var(--accent-red);\
-        \}\
-\
-        .completed-task \{\
-            opacity: 0.4;\
-        \}\
-\
-        .completed-task .task-title \{\
-            text-decoration: line-through;\
-        \}\
-\
-        .clear-all-section \{\
-            margin-top: 16px;\
-            padding-top: 16px;\
-            border-top: 1px solid var(--border);\
-        \}\
-\
-        .clear-all-btn \{\
-            background: rgba(239, 68, 68, 0.1);\
-            border: 1px solid rgba(239, 68, 68, 0.2);\
-            color: var(--accent-red);\
-            padding: 12px 16px;\
-            border-radius: 12px;\
-            font-size: 0.75rem;\
-            font-weight: 500;\
-            cursor: pointer;\
-            transition: all 0.3s ease;\
-            text-transform: uppercase;\
-            letter-spacing: 0.05em;\
-            width: 100%;\
-        \}\
-\
-        .clear-all-btn:hover \{\
-            background: rgba(239, 68, 68, 0.15);\
-            border-color: var(--accent-red);\
-        \}\
-\
-        /* Drag and Drop */\
-        .quadrant.drag-over \{\
-            border-color: var(--accent-blue);\
-            background: rgba(59, 130, 246, 0.05);\
-        \}\
-\
-        /* Scrollbar minimalista */\
-        .tasks-container::-webkit-scrollbar \{\
-            width: 3px;\
-        \}\
-\
-        .tasks-container::-webkit-scrollbar-track \{\
-            background: transparent;\
-        \}\
-\
-        .tasks-container::-webkit-scrollbar-thumb \{\
-            background: var(--border);\
-            border-radius: 2px;\
-        \}\
-\
-        .tasks-container::-webkit-scrollbar-thumb:hover \{\
-            background: var(--text-secondary);\
-        \}\
-\
-        /* Responsive */\
-        @media (max-width: 1200px) \{\
-            .main-layout \{\
-                grid-template-columns: 1fr;\
-                gap: 32px;\
-            \}\
-            \
-            .matrix-grid \{\
-                grid-template-columns: 1fr;\
-                height: auto;\
-            \}\
-            \
-            .quadrant \{\
-                min-height: 300px;\
-            \}\
-        \}\
-\
-        @media (max-width: 768px) \{\
-            .app-container \{\
-                padding: 20px;\
-                gap: 24px;\
-            \}\
-            \
-            .stats-grid \{\
-                grid-template-columns: repeat(2, 1fr);\
-            \}\
-            \
-            .matrix-grid \{\
-                gap: 16px;\
-            \}\
-\
-            .install-banner \{\
-                font-size: 0.8rem;\
-                padding: 10px 16px;\
-            \}\
-\
-            .install-banner button \{\
-                padding: 6px 12px;\
-                font-size: 0.8rem;\
-            \}\
-        \}\
-    </style>\
-</head>\
-<body>\
-    <!-- Install PWA Banner -->\
-    <div id="installBanner" class="install-banner">\
-        <div>\
-            \uc0\u55357 \u56561  \'a1Instala la app para una mejor experiencia!\
-        </div>\
-        <div>\
-            <button id="installBtn">Instalar</button>\
-            <button id="closeBannerBtn" class="close-btn">\'d7</button>\
-        </div>\
-    </div>\
-\
-    <div class="app-container">\
-        <div class="header">\
-            <h1>Matriz de Eisenhower</h1>\
-            <p>Gesti\'f3n inteligente de tareas con IA</p>\
-            \
-            <div class="timeline-card" id="timelineInfo" style="display: none;">\
-                <h4>Cronograma del proyecto</h4>\
-                <div class="timeline-bar">\
-                    <div class="timeline-progress" id="timelineProgress"></div>\
-                </div>\
-                <div id="timelineText"></div>\
-            </div>\
-        </div>\
-\
-        <div class="main-layout">\
-            <div class="sidebar">\
-                <!-- API Configuration -->\
-                <div class="bento-card api-section">\
-                    <h3>Configuraci\'f3n IA</h3>\
-                    <div class="api-input-group">\
-                        <label for="apiKey">API Key OpenAI</label>\
-                        <input type="password" id="apiKey" class="form-input" placeholder="sk-...">\
-                        <div id="apiStatus" class="api-status" style="display: none;"></div>\
-                    </div>\
-                </div>\
-\
-                <!-- Project Information -->\
-                <div class="bento-card">\
-                    <h3>Proyecto</h3>\
-                    <div class="form-group">\
-                        <label for="projectName">Nombre</label>\
-                        <input type="text" id="projectName" class="form-input" placeholder="Mi proyecto">\
-                    </div>\
-                    <div class="form-group">\
-                        <label for="projectStart">Inicio</label>\
-                        <input type="date" id="projectStart" class="form-input">\
-                    </div>\
-                    <div class="form-group">\
-                        <label for="projectEnd">Fecha l\'edmite</label>\
-                        <input type="date" id="projectEnd" class="form-input">\
-                    </div>\
-                    <div class="form-group">\
-                        <label for="projectContext">Contexto del proyecto</label>\
-                        <textarea id="projectContext" class="form-textarea" placeholder="Describe el contexto, objetivos, restricciones o informaci\'f3n clave que ayude a la IA a clasificar mejor las tareas..."></textarea>\
-                    </div>\
-                </div>\
-\
-                <!-- Task Input -->\
-                <div class="bento-card">\
-                    <h3>Nueva tarea</h3>\
-                    <div class="form-group">\
-                        <label for="taskInput">Descripci\'f3n</label>\
-                        <input type="text" id="taskInput" class="form-input" placeholder="Describe la tarea...">\
-                    </div>\
-                    <button onclick="addTask()" class="primary-btn" id="addTaskBtn">Clasificar con IA</button>\
-                    <div class="loading" id="loading">Analizando con OpenAI...</div>\
-                </div>\
-\
-                <!-- Stats & Progress -->\
-                <div class="bento-card">\
-                    <h3>Progreso del proyecto</h3>\
-                    <div class="stats-section">\
-                        <div class="progress-item">\
-                            <div class="progress-label">\
-                                <span>Progreso general</span>\
-                                <span id="globalProgressText">0%</span>\
-                            </div>\
-                            <div class="progress-bar">\
-                                <div class="progress-fill global" id="globalProgress"></div>\
-                            </div>\
-                        </div>\
-\
-                        <div class="progress-item">\
-                            <div class="progress-label">\
-                                <span>Cr\'edticas</span>\
-                                <span id="q1ProgressText">0%</span>\
-                            </div>\
-                            <div class="progress-bar">\
-                                <div class="progress-fill urgent-important" id="q1Progress"></div>\
-                            </div>\
-                        </div>\
-\
-                        <div class="progress-item">\
-                            <div class="progress-label">\
-                                <span>Importantes</span>\
-                                <span id="q2ProgressText">0%</span>\
-                            </div>\
-                            <div class="progress-bar">\
-                                <div class="progress-fill not-urgent-important" id="q2Progress"></div>\
-                            </div>\
-                        </div>\
-\
-                        <div class="progress-item">\
-                            <div class="progress-label">\
-                                <span>Urgentes</span>\
-                                <span id="q3ProgressText">0%</span>\
-                            </div>\
-                            <div class="progress-bar">\
-                                <div class="progress-fill urgent-not-important" id="q3Progress"></div>\
-                            </div>\
-                        </div>\
-\
-                        <div class="progress-item">\
-                            <div class="progress-label">\
-                                <span>Menores</span>\
-                                <span id="q4ProgressText">0%</span>\
-                            </div>\
-                            <div class="progress-bar">\
-                                <div class="progress-fill not-urgent-not-important" id="q4Progress"></div>\
-                            </div>\
-                        </div>\
-\
-                        <div class="stats-grid">\
-                            <div class="stat-card">\
-                                <div class="stat-number" id="totalTasks">0</div>\
-                                <div class="stat-label">Total</div>\
-                            </div>\
-                            <div class="stat-card">\
-                                <div class="stat-number" id="completedTasks">0</div>\
-                                <div class="stat-label">Completadas</div>\
-                            </div>\
-                            <div class="stat-card">\
-                                <div class="stat-number" id="pendingTasks">0</div>\
-                                <div class="stat-label">Pendientes</div>\
-                            </div>\
-                            <div class="stat-card">\
-                                <div class="stat-number" id="timeRemaining">--</div>\
-                                <div class="stat-label">D\'edas rest.</div>\
-                            </div>\
-                        </div>\
-                    </div>\
-\
-                    <div class="share-section">\
-                        <button onclick="shareApp()" class="share-btn" id="shareBtn">\uc0\u55357 \u56561  Compartir App</button>\
-                    </div>\
-\
-                    <div class="clear-all-section">\
-                        <button onclick="clearAllTasks()" class="clear-all-btn">\uc0\u55357 \u56785 \u65039  Limpiar toda la matriz</button>\
-                    </div>\
-                </div>\
-            </div>\
-\
-            <div class="matrix-container">\
-                <div class="matrix-grid">\
-                    <!-- Cuadrante 1: Hacer ahora -->\
-                    <div class="quadrant quadrant-1" ondrop="drop(event, 'urgentImportant')" ondragover="allowDrop(event)">\
-                        <div class="quadrant-header">\
-                            <div class="quadrant-title">\
-                                <div>\
-                                    <div>Hacer ahora</div>\
-                                    <div class="quadrant-subtitle">Urgente + Importante</div>\
-                                </div>\
-                                <div class="quadrant-actions">\
-                                    <span class="task-count" id="count1">0</span>\
-                                    <button onclick="reorganizeQuadrant('urgentImportant')" class="reorganize-quadrant-btn" title="Reorganizar por prioridad">\uc0\u55358 \u56598 </button>\
-                                    <button onclick="clearQuadrant('urgentImportant')" class="clear-quadrant-btn">Limpiar</button>\
-                                </div>\
-                            </div>\
-                        </div>\
-                        <div class="tasks-container" id="tasks1"></div>\
-                    </div>\
-\
-                    <!-- Cuadrante 2: Planificar -->\
-                    <div class="quadrant quadrant-2" ondrop="drop(event, 'notUrgentImportant')" ondragover="allowDrop(event)">\
-                        <div class="quadrant-header">\
-                            <div class="quadrant-title">\
-                                <div>\
-                                    <div>Planificar</div>\
-                                    <div class="quadrant-subtitle">No urgente + Importante</div>\
-                                </div>\
-                                <div class="quadrant-actions">\
-                                    <span class="task-count" id="count2">0</span>\
-                                    <button onclick="reorganizeQuadrant('notUrgentImportant')" class="reorganize-quadrant-btn" title="Reorganizar por prioridad">\uc0\u55358 \u56598 </button>\
-                                    <button onclick="clearQuadrant('notUrgentImportant')" class="clear-quadrant-btn">Limpiar</button>\
-                                </div>\
-                            </div>\
-                        </div>\
-                        <div class="tasks-container" id="tasks2"></div>\
-                    </div>\
-\
-                    <!-- Cuadrante 3: Delegar -->\
-                    <div class="quadrant quadrant-3" ondrop="drop(event, 'urgentNotImportant')" ondragover="allowDrop(event)">\
-                        <div class="quadrant-header">\
-                            <div class="quadrant-title">\
-                                <div>\
-                                    <div>Delegar</div>\
-                                    <div class="quadrant-subtitle">Urgente + No importante</div>\
-                                </div>\
-                                <div class="quadrant-actions">\
-                                    <span class="task-count" id="count3">0</span>\
-                                    <button onclick="reorganizeQuadrant('urgentNotImportant')" class="reorganize-quadrant-btn" title="Reorganizar por prioridad">\uc0\u55358 \u56598 </button>\
-                                    <button onclick="clearQuadrant('urgentNotImportant')" class="clear-quadrant-btn">Limpiar</button>\
-                                </div>\
-                            </div>\
-                        </div>\
-                        <div class="tasks-container" id="tasks3"></div>\
-                    </div>\
-\
-                    <!-- Cuadrante 4: Eliminar -->\
-                    <div class="quadrant quadrant-4" ondrop="drop(event, 'notUrgentNotImportant')" ondragover="allowDrop(event)">\
-                        <div class="quadrant-header">\
-                            <div class="quadrant-title">\
-                                <div>\
-                                    <div>Eliminar</div>\
-                                    <div class="quadrant-subtitle">No urgente + No importante</div>\
-                                </div>\
-                                <div class="quadrant-actions">\
-                                    <span class="task-count" id="count4">0</span>\
-                                    <button onclick="reorganizeQuadrant('notUrgentNotImportant')" class="reorganize-quadrant-btn" title="Reorganizar por prioridad">\uc0\u55358 \u56598 </button>\
-                                    <button onclick="clearQuadrant('notUrgentNotImportant')" class="clear-quadrant-btn">Limpiar</button>\
-                                </div>\
-                            </div>\
-                        </div>\
-                        <div class="tasks-container" id="tasks4"></div>\
-                    </div>\
-                </div>\
-            </div>\
-        </div>\
-    </div>\
-\
-    <script>\
-        let tasks = [];\
-        let projectData = \{\
-            name: '',\
-            startDate: null,\
-            endDate: null,\
-            context: ''\
-        \};\
-        let apiKey = '';\
-        let deferredPrompt;\
-\
-        // PWA Installation Logic\
-        window.addEventListener('beforeinstallprompt', (e) => \{\
-            e.preventDefault();\
-            deferredPrompt = e;\
-            showInstallBanner();\
-        \});\
-\
-        function showInstallBanner() \{\
-            const banner = document.getElementById('installBanner');\
-            if (banner && !localStorage.getItem('installBannerDismissed')) \{\
-                banner.classList.add('show');\
-                document.body.classList.add('has-install-banner');\
-            \}\
-        \}\
-\
-        function hideInstallBanner() \{\
-            const banner = document.getElementById('installBanner');\
-            if (banner) \{\
-                banner.classList.remove('show');\
-                document.body.classList.remove('has-install-banner');\
-            \}\
-        \}\
-\
-        // Install button click handler\
-        document.getElementById('installBtn').addEventListener('click', async () => \{\
-            if (deferredPrompt) \{\
-                deferredPrompt.prompt();\
-                const result = await deferredPrompt.userChoice;\
-                if (result.outcome === 'accepted') \{\
-                    console.log('PWA installed');\
-                \}\
-                deferredPrompt = null;\
-                hideInstallBanner();\
-            \}\
-        \});\
-\
-        // Close banner button\
-        document.getElementById('closeBannerBtn').addEventListener('click', () => \{\
-            hideInstallBanner();\
-            localStorage.setItem('installBannerDismissed', 'true');\
-        \});\
-\
-        // Share functionality\
-        async function shareApp() \{\
-            const shareData = \{\
-                title: 'Matriz de Eisenhower PRO',\
-                text: '\'a1Prueba esta incre\'edble app para gestionar tareas con IA!',\
-                url: window.location.href\
-            \};\
-\
-            if (navigator.share) \{\
-                try \{\
-                    await navigator.share(shareData);\
-                \} catch (error) \{\
-                    console.log('Error sharing:', error);\
-                    fallbackShare();\
-                \}\
-            \} else \{\
-                fallbackShare();\
-            \}\
-        \}\
-\
-        function fallbackShare() \{\
-            const url = window.location.href;\
-            if (navigator.clipboard) \{\
-                navigator.clipboard.writeText(url).then(() => \{\
-                    alert('\'a1Enlace copiado al portapapeles!\\n\\nComp\'e1rtelo con tus contactos.');\
-                \});\
-            \} else \{\
-                // Fallback para navegadores m\'e1s antiguos\
-                const textArea = document.createElement('textarea');\
-                textArea.value = url;\
-                document.body.appendChild(textArea);\
-                textArea.select();\
-                document.execCommand('copy');\
-                document.body.removeChild(textArea);\
-                alert('\'a1Enlace copiado al portapapeles!\\n\\nComp\'e1rtelo con tus contactos.');\
-            \}\
-        \}\
-\
-        // Service Worker Registration - Solo si est\'e1 servido desde un servidor real\
-        if ('serviceWorker' in navigator && window.location.protocol !== 'file:') \{\
-            // Verificar si estamos en un entorno que soporte SW\
-            const isLocalhost = window.location.hostname === 'localhost' || \
-                               window.location.hostname === '127.0.0.1' ||\
-                               window.location.hostname === '[::1]';\
-            \
-            const isHTTPS = window.location.protocol === 'https:';\
-            \
-            if (isHTTPS || isLocalhost) \{\
-                console.log('PWA: Service Worker disponible pero no registrado desde archivo local');\
-                // En producci\'f3n, aqu\'ed registrar\'edas un archivo sw.js real\
-                // navigator.serviceWorker.register('/sw.js')\
-            \}\
-        \}\
-\
-        // Inicializar la aplicaci\'f3n\
-        document.addEventListener('DOMContentLoaded', function() \{\
-            loadTasks();\
-            loadApiKey();\
-            setupEventListeners();\
-            updateUI();\
-            \
-            // Mostrar banner de instalaci\'f3n si es aplicable\
-            setTimeout(() => \{\
-                if (!window.matchMedia('(display-mode: standalone)').matches && \
-                    !localStorage.getItem('installBannerDismissed') &&\
-                    window.location.protocol !== 'file:') \{\
-                    showInstallBanner();\
-                \}\
-            \}, 3000);\
-        \});\
-\
-        function setupEventListeners() \{\
-            // Listeners para campos del proyecto\
-            const projectName = document.getElementById('projectName');\
-            const projectStart = document.getElementById('projectStart');\
-            const projectEnd = document.getElementById('projectEnd');\
-            const projectContext = document.getElementById('projectContext');\
-            const apiKeyInput = document.getElementById('apiKey');\
-            \
-            if (projectName) projectName.addEventListener('input', updateProjectInfo);\
-            if (projectStart) projectStart.addEventListener('change', updateProjectInfo);\
-            if (projectEnd) projectEnd.addEventListener('change', updateProjectInfo);\
-            if (projectContext) projectContext.addEventListener('input', updateProjectInfo);\
-            if (apiKeyInput) apiKeyInput.addEventListener('input', updateApiKey);\
-            \
-            // Listener para Enter en el input de tarea\
-            const taskInput = document.getElementById('taskInput');\
-            if (taskInput) \{\
-                taskInput.addEventListener('keypress', function(e) \{\
-                    if (e.key === 'Enter') \{\
-                        addTask();\
-                    \}\
-                \});\
-            \}\
-        \}\
-\
-        function updateApiKey() \{\
-            const apiKeyInput = document.getElementById('apiKey');\
-            const apiStatus = document.getElementById('apiStatus');\
-            const addTaskBtn = document.getElementById('addTaskBtn');\
-            \
-            if (apiKeyInput) \{\
-                apiKey = apiKeyInput.value.trim();\
-                localStorage.setItem('openaiApiKey', apiKey);\
-                \
-                if (apiKey && apiKey.startsWith('sk-')) \{\
-                    apiStatus.className = 'api-status connected';\
-                    apiStatus.textContent = 'Conectado correctamente';\
-                    apiStatus.style.display = 'block';\
-                    addTaskBtn.disabled = false;\
-                \} else if (apiKey) \{\
-                    apiStatus.className = 'api-status error';\
-                    apiStatus.textContent = 'API Key inv\'e1lida';\
-                    apiStatus.style.display = 'block';\
-                    addTaskBtn.disabled = true;\
-                \} else \{\
-                    apiStatus.style.display = 'none';\
-                    addTaskBtn.disabled = true;\
-                \}\
-            \}\
-        \}\
-\
-        function loadApiKey() \{\
-            const saved = localStorage.getItem('openaiApiKey');\
-            if (saved) \{\
-                const apiKeyInput = document.getElementById('apiKey');\
-                if (apiKeyInput) \{\
-                    apiKeyInput.value = saved;\
-                    updateApiKey();\
-                \}\
-            \}\
-        \}\
-\
-        function updateProjectInfo() \{\
-            const projectNameEl = document.getElementById('projectName');\
-            const projectStartEl = document.getElementById('projectStart');\
-            const projectEndEl = document.getElementById('projectEnd');\
-            const projectContextEl = document.getElementById('projectContext');\
-            \
-            if (projectNameEl) projectData.name = projectNameEl.value;\
-            if (projectStartEl) projectData.startDate = projectStartEl.value;\
-            if (projectEndEl) projectData.endDate = projectEndEl.value;\
-            if (projectContextEl) projectData.context = projectContextEl.value;\
-            \
-            saveProjectData();\
-            updateTimeline();\
-            updateUI();\
-        \}\
-\
-        function updateTimeline() \{\
-            const timelineInfo = document.getElementById('timelineInfo');\
-            const timelineProgress = document.getElementById('timelineProgress');\
-            const timelineText = document.getElementById('timelineText');\
-            const timeRemainingElement = document.getElementById('timeRemaining');\
-\
-            if (!timelineInfo || !timelineProgress || !timelineText || !timeRemainingElement) return;\
-\
-            if (projectData.startDate && projectData.endDate) \{\
-                const startDate = new Date(projectData.startDate + 'T00:00:00');\
-                const endDate = new Date(projectData.endDate + 'T23:59:59');\
-                const now = new Date();\
-                \
-                const totalTime = endDate.getTime() - startDate.getTime();\
-                const elapsedTime = now.getTime() - startDate.getTime();\
-                const remainingTime = endDate.getTime() - now.getTime();\
-                \
-                let progressPercent = 0;\
-                let statusText = '';\
-                \
-                if (now < startDate) \{\
-                    // Proyecto no ha comenzado\
-                    const timeToStart = startDate.getTime() - now.getTime();\
-                    const daysToStart = Math.ceil(timeToStart / (1000 * 60 * 60 * 24));\
-                    \
-                    progressPercent = 0;\
-                    statusText = `Inicia en $\{daysToStart\} d\'edas`;\
-                    timeRemainingElement.textContent = `$\{daysToStart\}d`;\
-                \} else if (now > endDate) \{\
-                    // Proyecto terminado\
-                    const overTime = now.getTime() - endDate.getTime();\
-                    const daysOver = Math.floor(overTime / (1000 * 60 * 60 * 24));\
-                    \
-                    progressPercent = 100;\
-                    statusText = `Vencido hace $\{daysOver\} d\'edas`;\
-                    timeRemainingElement.textContent = '\'a1Vencido!';\
-                \} else \{\
-                    // Proyecto en curso\
-                    const remainingDays = Math.floor(remainingTime / (1000 * 60 * 60 * 24));\
-                    const remainingHours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\
-                    \
-                    progressPercent = Math.max(0, Math.min(100, (elapsedTime / totalTime) * 100));\
-                    \
-                    if (remainingDays > 0) \{\
-                        statusText = `Quedan $\{remainingDays\} d\'edas y $\{remainingHours\} horas`;\
-                        timeRemainingElement.textContent = `$\{remainingDays\}d $\{remainingHours\}h`;\
-                    \} else if (remainingHours > 0) \{\
-                        const remainingMinutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));\
-                        statusText = `Quedan $\{remainingHours\} horas y $\{remainingMinutes\} minutos`;\
-                        timeRemainingElement.textContent = `$\{remainingHours\}h $\{remainingMinutes\}m`;\
-                    \} else \{\
-                        const remainingMinutes = Math.floor(remainingTime / (1000 * 60));\
-                        statusText = `Quedan $\{remainingMinutes\} minutos`;\
-                        timeRemainingElement.textContent = `$\{remainingMinutes\}m`;\
-                    \}\
-                \}\
-                \
-                timelineProgress.style.width = progressPercent + '%';\
-                timelineText.textContent = statusText;\
-                timelineInfo.style.display = 'block';\
-            \} else \{\
-                timelineInfo.style.display = 'none';\
-                timeRemainingElement.textContent = '--';\
-            \}\
-        \}\
-\
-        async function classifyTaskWithAI(taskText, projectName, projectStartDate, projectEndDate, projectContext) \{\
-            const contextSection = projectContext ? `\
-CONTEXTO ADICIONAL DEL PROYECTO:\
-$\{projectContext\}\
-` : '';\
-\
-            const prompt = `\
-Eres un experto en productividad y gesti\'f3n de tareas. Analiza la siguiente tarea y clasif\'edcala seg\'fan la Matriz de Eisenhower.\
-\
-INFORMACI\'d3N DEL PROYECTO:\
-- Nombre: $\{projectName\}\
-- Fecha inicio: $\{projectStartDate || 'No especificada'\}\
-- Fecha l\'edmite: $\{projectEndDate || 'No especificada'\}\
-$\{contextSection\}\
-TAREA A ANALIZAR: "$\{taskText\}"\
-\
-INSTRUCCIONES:\
-1. Clasifica la tarea en UNA de estas categor\'edas:\
-   - urgentImportant: Urgente + Importante (hacer ahora)\
-   - notUrgentImportant: No urgente + Importante (planificar)\
-   - urgentNotImportant: Urgente + No importante (delegar)\
-   - notUrgentNotImportant: No urgente + No importante (eliminar)\
-\
-2. Sugiere una fecha l\'edmite realista para esta tarea (formato YYYY-MM-DD)\
-\
-3. Proporciona un razonamiento claro de tu clasificaci\'f3n considerando el contexto del proyecto\
-\
-Responde SOLO con un JSON v\'e1lido en este formato exacto:\
-\{\
-  "category": "urgentImportant",\
-  "suggestedDueDate": "2024-01-15",\
-  "reasoning": "Esta tarea es urgente porque..."\
-\}\
-`;\
-\
-            const response = await fetch('https://api.openai.com/v1/chat/completions', \{\
-                method: 'POST',\
-                headers: \{\
-                    'Content-Type': 'application/json',\
-                    'Authorization': `Bearer $\{apiKey\}`\
-                \},\
-                body: JSON.stringify(\{\
-                    model: 'gpt-3.5-turbo',\
-                    messages: [\
-                        \{\
-                            role: 'user',\
-                            content: prompt\
-                        \}\
-                    ],\
-                    max_tokens: 300,\
-                    temperature: 0.3\
-                \})\
-            \});\
-\
-            if (!response.ok) \{\
-                throw new Error(`Error de API: $\{response.status\} $\{response.statusText\}`);\
-            \}\
-\
-            const data = await response.json();\
-            const aiResponse = data.choices[0].message.content.trim();\
-            \
-            try \{\
-                return JSON.parse(aiResponse);\
-            \} catch (e) \{\
-                // Si no puede parsear el JSON, usar clasificaci\'f3n de respaldo\
-                console.log('Respuesta de IA no v\'e1lida, usando clasificaci\'f3n de respaldo');\
-                return \{\
-                    category: 'notUrgentNotImportant',\
-                    suggestedDueDate: null,\
-                    reasoning: 'Clasificaci\'f3n autom\'e1tica por error de IA'\
-                \};\
-            \}\
-        \}\
-\
-        // Funci\'f3n para reorganizar tareas dentro de un cuadrante espec\'edfico\
-        async function reorganizeQuadrant(quadrant) \{\
-            const quadrantTasks = tasks.filter(t => t.quadrant === quadrant && !t.completed);\
-            \
-            if (quadrantTasks.length < 2) \{\
-                alert('Necesitas al menos 2 tareas pendientes en este cuadrante para reorganizar.');\
-                return;\
-            \}\
-\
-            if (!apiKey || !apiKey.startsWith('sk-')) \{\
-                alert('Por favor, configura tu API Key de OpenAI primero.');\
-                return;\
-            \}\
-\
-            const loading = document.getElementById('loading');\
-            loading.style.display = 'block';\
-\
-            try \{\
-                const taskDescriptions = quadrantTasks.map(t => t.text).join('\\n- ');\
-                \
-                const quadrantNames = \{\
-                    'urgentImportant': 'Hacer ahora (Urgente + Importante)',\
-                    'notUrgentImportant': 'Planificar (No urgente + Importante)', \
-                    'urgentNotImportant': 'Delegar (Urgente + No importante)',\
-                    'notUrgentNotImportant': 'Eliminar (No urgente + No importante)'\
-                \};\
-\
-                const contextSection = projectData.context ? `\
-CONTEXTO DEL PROYECTO: $\{projectData.context\}\
-` : '';\
-\
-                const prompt = `\
-Eres un experto en productividad. Tienes estas tareas en el cuadrante "$\{quadrantNames[quadrant]\}" de la Matriz de Eisenhower:\
-\
-- $\{taskDescriptions\}\
-\
-INFORMACI\'d3N DEL PROYECTO:\
-- Nombre: $\{projectData.name\}\
-- Fecha inicio: $\{projectData.startDate || 'No especificada'\}\
-- Fecha l\'edmite: $\{projectData.endDate || 'No especificada'\}\
-$\{contextSection\}\
-INSTRUCCIONES:\
-1. Ord\'e9nalas por prioridad DENTRO de este cuadrante (de mayor a menor importancia)\
-2. Considera: impacto, complejidad, dependencias, fechas l\'edmite, recursos necesarios y el contexto del proyecto\
-3. Asigna un n\'famero de prioridad del 1 al $\{quadrantTasks.length\} (1 = m\'e1s prioritaria)\
-\
-Responde SOLO con un JSON v\'e1lido:\
-\{\
-  "prioritizedTasks": [\
-    \{\
-      "taskText": "Texto exacto de la tarea",\
-      "priority": 1,\
-      "reasoning": "Raz\'f3n de la prioridad"\
-    \}\
-  ]\
-\}\
-`;\
-\
-                const response = await fetch('https://api.openai.com/v1/chat/completions', \{\
-                    method: 'POST',\
-                    headers: \{\
-                        'Content-Type': 'application/json',\
-                        'Authorization': `Bearer $\{apiKey\}`\
-                    \},\
-                    body: JSON.stringify(\{\
-                        model: 'gpt-3.5-turbo',\
-                        messages: [\{ role: 'user', content: prompt \}],\
-                        max_tokens: 500,\
-                        temperature: 0.3\
-                    \})\
-                \});\
-\
-                if (!response.ok) \{\
-                    throw new Error(`Error de API: $\{response.status\}`);\
-                \}\
-\
-                const data = await response.json();\
-                const aiResponse = data.choices[0].message.content.trim();\
-                const result = JSON.parse(aiResponse);\
-\
-                // Aplicar las nuevas prioridades\
-                result.prioritizedTasks.forEach(prioritizedTask => \{\
-                    const task = quadrantTasks.find(t => \
-                        t.text.toLowerCase().includes(prioritizedTask.taskText.toLowerCase()) || \
-                        prioritizedTask.taskText.toLowerCase().includes(t.text.toLowerCase())\
-                    );\
-                    if (task) \{\
-                        task.priority = prioritizedTask.priority;\
-                        task.priorityReasoning = prioritizedTask.reasoning;\
-                    \}\
-                \});\
-\
-                saveTasks();\
-                updateUI();\
-                \
-                alert(`\uc0\u9989  Cuadrante reorganizado!\\n$\{result.prioritizedTasks.length\} tareas fueron priorizadas.`);\
-\
-            \} catch (error) \{\
-                console.error('Error reorganizando cuadrante:', error);\
-                alert('Error al reorganizar: ' + error.message);\
-            \} finally \{\
-                loading.style.display = 'none';\
-            \}\
-        \}\
-\
-        async function addTask() \{\
-            const taskInput = document.getElementById('taskInput');\
-            const loading = document.getElementById('loading');\
-            const addTaskBtn = document.getElementById('addTaskBtn');\
-            \
-            if (!taskInput || !loading) return;\
-            \
-            const taskText = taskInput.value.trim();\
-            const projectName = projectData.name.trim();\
-            \
-            if (!taskText) \{\
-                alert('Por favor, escribe una tarea');\
-                return;\
-            \}\
-            \
-            if (!projectName) \{\
-                alert('Por favor, ingresa el nombre del proyecto');\
-                return;\
-            \}\
-\
-            if (!apiKey || !apiKey.startsWith('sk-')) \{\
-                alert('Por favor, configura tu API Key de OpenAI');\
-                return;\
-            \}\
-\
-            loading.style.display = 'block';\
-            addTaskBtn.disabled = true;\
-\
-            try \{\
-                const aiResult = await classifyTaskWithAI(\
-                    taskText, \
-                    projectName, \
-                    projectData.startDate, \
-                    projectData.endDate,\
-                    projectData.context\
-                );\
-\
-                const newTask = \{\
-                    id: Date.now(),\
-                    text: taskText,\
-                    project: projectName,\
-                    quadrant: aiResult.category,\
-                    dueDate: aiResult.suggestedDueDate || '',\
-                    reasoning: aiResult.reasoning,\
-                    completed: false,\
-                    createdAt: new Date().toISOString()\
-                \};\
-\
-                tasks.push(newTask);\
-                saveTasks();\
-                updateUI();\
-                \
-                taskInput.value = '';\
-                \
-            \} catch (error) \{\
-                console.error('Error:', error);\
-                alert('Error al clasificar la tarea: ' + error.message + '\\n\\nVerifica tu API Key.');\
-            \} finally \{\
-                loading.style.display = 'none';\
-                addTaskBtn.disabled = false;\
-            \}\
-        \}\
-\
-        function deleteTask(taskId) \{\
-            if (confirm('\'bfEliminar esta tarea?')) \{\
-                tasks = tasks.filter(task => task.id !== taskId);\
-                saveTasks();\
-                updateUI();\
-            \}\
-        \}\
-\
-        function toggleTaskComplete(taskId) \{\
-            const task = tasks.find(t => t.id === taskId);\
-            if (task) \{\
-                task.completed = !task.completed;\
-                saveTasks();\
-                updateUI();\
-            \}\
-        \}\
-\
-        // Drag and Drop Functions\
-        function allowDrop(ev) \{\
-            ev.preventDefault();\
-            ev.currentTarget.classList.add('drag-over');\
-        \}\
-\
-        function drop(ev, newQuadrant) \{\
-            ev.preventDefault();\
-            ev.currentTarget.classList.remove('drag-over');\
-            \
-            const taskId = parseInt(ev.dataTransfer.getData("text"));\
-            const task = tasks.find(t => t.id === taskId);\
-            \
-            if (task && task.quadrant !== newQuadrant) \{\
-                task.quadrant = newQuadrant;\
-                saveTasks();\
-                updateUI();\
-            \}\
-        \}\
-\
-        function dragStart(ev, taskId) \{\
-            ev.dataTransfer.setData("text", taskId);\
-            ev.target.classList.add('dragging');\
-        \}\
-\
-        function dragEnd(ev) \{\
-            ev.target.classList.remove('dragging');\
-            // Remove drag-over class from all quadrants\
-            document.querySelectorAll('.quadrant').forEach(q => q.classList.remove('drag-over'));\
-        \}\
-\
-        function updateUI() \{\
-            updateTaskCounts();\
-            updateProgressBars();\
-            updateTaskLists();\
-            updateStats();\
-        \}\
-\
-        function updateTaskCounts() \{\
-            const counts = \{\
-                urgentImportant: 0,\
-                notUrgentImportant: 0,\
-                urgentNotImportant: 0,\
-                notUrgentNotImportant: 0\
-            \};\
-\
-            tasks.forEach(task => \{\
-                counts[task.quadrant]++;\
-            \});\
-\
-            const count1 = document.getElementById('count1');\
-            const count2 = document.getElementById('count2');\
-            const count3 = document.getElementById('count3');\
-            const count4 = document.getElementById('count4');\
-\
-            if (count1) count1.textContent = counts.urgentImportant;\
-            if (count2) count2.textContent = counts.notUrgentImportant;\
-            if (count3) count3.textContent = counts.urgentNotImportant;\
-            if (count4) count4.textContent = counts.notUrgentNotImportant;\
-        \}\
-\
-        function updateProgressBars() \{\
-            const totalTasks = tasks.length;\
-            const completedTasks = tasks.filter(t => t.completed).length;\
-            \
-            const globalProgress = totalTasks > 0 ? (completedTasks / totalTasks) * 100 : 0;\
-            \
-            const globalProgressEl = document.getElementById('globalProgress');\
-            const globalProgressTextEl = document.getElementById('globalProgressText');\
-            \
-            if (globalProgressEl) globalProgressEl.style.width = globalProgress + '%';\
-            if (globalProgressTextEl) globalProgressTextEl.textContent = Math.round(globalProgress) + '%';\
-\
-            // Progress por cuadrante\
-            const quadrants = ['urgentImportant', 'notUrgentImportant', 'urgentNotImportant', 'notUrgentNotImportant'];\
-            const quadrantIds = ['q1', 'q2', 'q3', 'q4'];\
-            \
-            quadrants.forEach((quadrant, index) => \{\
-                const quadrantTasks = tasks.filter(t => t.quadrant === quadrant);\
-                const quadrantCompleted = quadrantTasks.filter(t => t.completed).length;\
-                const quadrantProgress = quadrantTasks.length > 0 ? (quadrantCompleted / quadrantTasks.length) * 100 : 0;\
-                \
-                const progressEl = document.getElementById(quadrantIds[index] + 'Progress');\
-                const progressTextEl = document.getElementById(quadrantIds[index] + 'ProgressText');\
-                \
-                if (progressEl) progressEl.style.width = quadrantProgress + '%';\
-                if (progressTextEl) progressTextEl.textContent = Math.round(quadrantProgress) + '%';\
-            \});\
-        \}\
-\
-        function updateTaskLists() \{\
-            const taskContainers = \{\
-                urgentImportant: document.getElementById('tasks1'),\
-                notUrgentImportant: document.getElementById('tasks2'),\
-                urgentNotImportant: document.getElementById('tasks3'),\
-                notUrgentNotImportant: document.getElementById('tasks4')\
-            \};\
-\
-            // Limpiar contenedores\
-            Object.values(taskContainers).forEach(container => \{\
-                if (container) container.innerHTML = '';\
-            \});\
-\
-            // Agrupar tareas por cuadrante y ordenar por prioridad\
-            Object.keys(taskContainers).forEach(quadrant => \{\
-                const quadrantTasks = tasks.filter(t => t.quadrant === quadrant);\
-                \
-                // Ordenar por prioridad (si existe) y luego por fecha de creaci\'f3n\
-                quadrantTasks.sort((a, b) => \{\
-                    // Completadas al final\
-                    if (a.completed && !b.completed) return 1;\
-                    if (!a.completed && b.completed) return -1;\
-                    \
-                    // Si ambas est\'e1n pendientes, ordenar por prioridad\
-                    if (!a.completed && !b.completed) \{\
-                        if (a.priority && b.priority) \{\
-                            return a.priority - b.priority;\
-                        \}\
-                        if (a.priority && !b.priority) return -1;\
-                        if (!a.priority && b.priority) return 1;\
-                    \}\
-                    \
-                    // Si no hay prioridad, ordenar por fecha de creaci\'f3n\
-                    return new Date(a.createdAt) - new Date(b.createdAt);\
-                \});\
-\
-                const container = taskContainers[quadrant];\
-                if (container) \{\
-                    quadrantTasks.forEach(task => \{\
-                        const taskElement = createTaskElement(task);\
-                        if (taskElement) \{\
-                            container.appendChild(taskElement);\
-                        \}\
-                    \});\
-                \}\
-            \});\
-        \}\
-\
-        function createTaskElement(task) \{\
-            const div = document.createElement('div');\
-            div.className = 'task-item quadrant-' + getQuadrantNumber(task.quadrant) + (task.completed ? ' completed-task' : '');\
-            div.draggable = true;\
-            div.ondragstart = (ev) => dragStart(ev, task.id);\
-            div.ondragend = dragEnd;\
-            \
-            const dueDateText = task.dueDate ? new Date(task.dueDate).toLocaleDateString('es-ES') : 'Sin fecha l\'edmite';\
-            \
-            // Informaci\'f3n de prioridad\
-            const priorityText = task.priority ? `Prioridad: #$\{task.priority\}` : '';\
-            const priorityReasoning = task.priorityReasoning ? `<br>$\{task.priorityReasoning\}` : '';\
-            const reasoningText = task.reasoning ? '<br>' + task.reasoning : '';\
-            \
-            const metaText = [dueDateText, priorityText].filter(Boolean).join(' \'95 ') + reasoningText + priorityReasoning;\
-            \
-            div.innerHTML = \
-                '<div class="task-header">' +\
-                    '<div class="task-title">' + \
-                        (task.priority ? `<span style="color: var(--accent-purple); font-weight: 600; margin-right: 8px;">#$\{task.priority\}</span>` : '') +\
-                        task.text + \
-                    '</div>' +\
-                    '<div class="task-project">' + task.project + '</div>' +\
-                '</div>' +\
-                '<div class="task-meta">' +\
-                    metaText +\
-                '</div>' +\
-                '<div class="task-actions">' +\
-                    '<button onclick="toggleTaskComplete(' + task.id + ')" class="task-btn complete-btn ' + (task.completed ? 'completed' : 'pending') + '">' +\
-                        (task.completed ? 'Completada' : 'Completar') +\
-                    '</button>' +\
-                    '<button onclick="deleteTask(' + task.id + ')" class="task-btn delete-btn">Eliminar</button>' +\
-                '</div>';\
-            \
-            return div;\
-        \}\
-\
-        function getQuadrantNumber(quadrant) \{\
-            const mapping = \{\
-                urgentImportant: 1,\
-                notUrgentImportant: 2,\
-                urgentNotImportant: 3,\
-                notUrgentNotImportant: 4\
-            \};\
-            return mapping[quadrant] || 1;\
-        \}\
-\
-        function updateStats() \{\
-            const total = tasks.length;\
-            const completed = tasks.filter(t => t.completed).length;\
-            const pending = total - completed;\
-            \
-            const totalTasksEl = document.getElementById('totalTasks');\
-            const completedTasksEl = document.getElementById('completedTasks');\
-            const pendingTasksEl = document.getElementById('pendingTasks');\
-            \
-            if (totalTasksEl) totalTasksEl.textContent = total;\
-            if (completedTasksEl) completedTasksEl.textContent = completed;\
-            if (pendingTasksEl) pendingTasksEl.textContent = pending;\
-        \}\
-\
-        function saveTasks() \{\
-            try \{\
-                localStorage.setItem('eisenhowerTasks', JSON.stringify(tasks));\
-            \} catch (error) \{\
-                console.error('Error saving tasks:', error);\
-            \}\
-        \}\
-\
-        function loadTasks() \{\
-            try \{\
-                const saved = localStorage.getItem('eisenhowerTasks');\
-                if (saved) \{\
-                    tasks = JSON.parse(saved);\
-                \}\
-                \
-                const savedProject = localStorage.getItem('eisenhowerProject');\
-                if (savedProject) \{\
-                    projectData = JSON.parse(savedProject);\
-                    const projectNameEl = document.getElementById('projectName');\
-                    const projectStartEl = document.getElementById('projectStart');\
-                    const projectEndEl = document.getElementById('projectEnd');\
-                    const projectContextEl = document.getElementById('projectContext');\
-                    \
-                    if (projectNameEl) projectNameEl.value = projectData.name || '';\
-                    if (projectStartEl) projectStartEl.value = projectData.startDate || '';\
-                    if (projectEndEl) projectEndEl.value = projectData.endDate || '';\
-                    if (projectContextEl) projectContextEl.value = projectData.context || '';\
-                    updateTimeline();\
-                \}\
-            \} catch (error) \{\
-                console.error('Error loading tasks:', error);\
-            \}\
-        \}\
-\
-        function saveProjectData() \{\
-            try \{\
-                localStorage.setItem('eisenhowerProject', JSON.stringify(projectData));\
-            \} catch (error) \{\
-                console.error('Error saving project data:', error);\
-            \}\
-        \}\
-\
-        // Funci\'f3n para limpiar un cuadrante espec\'edfico\
-        function clearQuadrant(quadrant) \{\
-            console.log('Clearing quadrant:', quadrant); // Debug\
-            \
-            const quadrantNames = \{\
-                'urgentImportant': 'Hacer ahora',\
-                'notUrgentImportant': 'Planificar',\
-                'urgentNotImportant': 'Delegar',\
-                'notUrgentNotImportant': 'Eliminar'\
-            \};\
-            \
-            const tasksInQuadrant = tasks.filter(t => t.quadrant === quadrant);\
-            console.log('Tasks in quadrant:', tasksInQuadrant.length); // Debug\
-            \
-            if (tasksInQuadrant.length === 0) \{\
-                alert('No hay tareas en este cuadrante para limpiar.');\
-                return;\
-            \}\
-            \
-            if (confirm(`\'bfEst\'e1s seguro de que deseas eliminar todas las $\{tasksInQuadrant.length\} tareas del cuadrante "$\{quadrantNames[quadrant]\}"?`)) \{\
-                tasks = tasks.filter(task => task.quadrant !== quadrant);\
-                saveTasks();\
-                updateUI();\
-                console.log('Quadrant cleared'); // Debug\
-            \}\
-        \}\
-\
-        // Funci\'f3n para limpiar toda la matriz\
-        function clearAllTasks() \{\
-            console.log('Clearing all tasks, current count:', tasks.length); // Debug\
-            \
-            if (tasks.length === 0) \{\
-                alert('No hay tareas para limpiar.');\
-                return;\
-            \}\
-            \
-            if (confirm(`\'bfEst\'e1s seguro de que deseas eliminar TODAS las $\{tasks.length\} tareas de la matriz? Esta acci\'f3n no se puede deshacer.`)) \{\
-                tasks = [];\
-                saveTasks();\
-                updateUI();\
-                console.log('All tasks cleared'); // Debug\
-            \}\
-        \}\
-    </script>\
-</body>\
-</html>}
+        :root {
+            --background: #000000;
+            --text-primary: #FFFFFF;
+            --text-secondary: #666666;
+            --accent-blue: #3B82F6;
+            --accent-blue-hover: #60A5FA;
+            --border: #1a1a1a;
+            --card-bg: rgba(255, 255, 255, 0.02);
+            --card-bg-opaque: rgba(255, 255, 255, 0.05);
+            --accent-red: #EF4444;
+            --accent-green: #10B981;
+            --accent-orange: #F59E0B;
+            --accent-purple: #8B5CF6;
+            --hover-bg: rgba(255, 255, 255, 0.05);
+            --glass-bg: rgba(255, 255, 255, 0.03);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: var(--background);
+            color: var(--text-primary);
+            line-height: 1.6;
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Install PWA Banner */
+        .install-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            color: white;
+            padding: 12px 16px;
+            display: none;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .install-banner.show {
+            display: flex;
+        }
+
+        .install-banner button {
+            background: rgba(255,255,255,0.2);
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            margin-left: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .install-banner button:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .install-banner .close-btn {
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            padding: 4px;
+            margin-left: 8px;
+        }
+
+        /* Share Button */
+        .share-section {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+        }
+
+        .share-btn {
+            background: var(--accent-purple);
+            color: var(--text-primary);
+            border: none;
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            width: 100%;
+            margin-bottom: 8px;
+        }
+
+        .share-btn:hover {
+            background: #A855F7;
+        }
+
+        /* Retrato humano de fondo */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 30% 40%, rgba(59, 130, 246, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 70% 60%, rgba(139, 92, 246, 0.02) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -2;
+        }
+
+        /* Efecto de retrato abstracto */
+        body::after {
+            content: '';
+            position: fixed;
+            top: 10%;
+            right: -10%;
+            width: 60%;
+            height: 80%;
+            background: linear-gradient(
+                45deg,
+                transparent 0%,
+                rgba(255, 255, 255, 0.01) 20%,
+                rgba(255, 255, 255, 0.02) 40%,
+                transparent 60%,
+                rgba(255, 255, 255, 0.01) 80%,
+                transparent 100%
+            );
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            filter: blur(1px);
+            pointer-events: none;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        .app-container {
+            max-width: 1600px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            gap: 40px;
+            padding: 32px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Ajustes cuando hay banner de instalación */
+        body.has-install-banner .app-container {
+            padding-top: 80px;
+        }
+
+        /* Header minimalista con nueva tipografía */
+        .header {
+            text-align: center;
+            padding: 24px 0;
+        }
+
+        .header h1 {
+            font-family: 'Anton', 'Impact', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: clamp(3rem, 5vw, 5rem);
+            font-weight: 400;
+            background: linear-gradient(135deg, #FFFFFF 0%, #666666 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            font-weight: 300;
+        }
+
+        /* Timeline card minimalista */
+        .timeline-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            margin: 32px auto 0;
+            max-width: 500px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .timeline-card h4 {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .timeline-bar {
+            background: var(--border);
+            border-radius: 8px;
+            height: 2px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .timeline-progress {
+            background: var(--accent-blue);
+            height: 100%;
+            border-radius: 8px;
+            transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Layout principal */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            gap: 40px;
+            min-height: calc(100vh - 280px);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            display: grid;
+            grid-template-rows: auto auto auto 1fr;
+            gap: 20px;
+        }
+
+        .bento-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .bento-card:hover {
+            background: var(--card-bg-opaque);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .bento-card h3 {
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* API Configuration - Rediseñada para fondo negro */
+        .api-section {
+            background: var(--glass-bg);
+        }
+
+        .api-input-group {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .api-input-group:focus-within {
+            border-color: var(--accent-blue);
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .api-input-group label {
+            display: block;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 8px 0;
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            color: var(--text-primary);
+            font-family: inherit;
+            font-weight: 300;
+        }
+
+        .form-input:focus {
+            outline: none;
+        }
+
+        .form-input::placeholder {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Textarea para contexto */
+        .form-textarea {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            font-size: 14px;
+            color: var(--text-primary);
+            font-family: inherit;
+            font-weight: 300;
+            resize: vertical;
+            min-height: 80px;
+            transition: all 0.3s ease;
+        }
+
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .form-textarea::placeholder {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .api-status {
+            text-align: center;
+            padding: 8px;
+            border-radius: 8px;
+            margin-top: 12px;
+            font-weight: 500;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .api-status.connected {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--accent-green);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        .api-status.error {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--accent-red);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+
+        /* Formularios */
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .form-group .form-input {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 16px;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .form-group .form-input:focus {
+            border-color: var(--accent-blue);
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        /* Botón principal rediseñado */
+        .primary-btn {
+            background: var(--accent-blue);
+            color: var(--text-primary);
+            border: none;
+            padding: 14px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 500;
+            width: 100%;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.2);
+        }
+
+        .primary-btn:hover {
+            background: var(--accent-blue-hover);
+            box-shadow: 0 6px 25px rgba(59, 130, 246, 0.3);
+        }
+
+        .primary-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            background: var(--text-secondary);
+        }
+
+        /* Loading state minimalista */
+        .loading {
+            display: none;
+            text-align: center;
+            color: var(--text-secondary);
+            font-weight: 300;
+            margin: 16px 0;
+            padding: 16px;
+            background: var(--glass-bg);
+            border-radius: 12px;
+            font-size: 0.8rem;
+        }
+
+        /* Estadísticas minimalistas */
+        .stats-section {
+            display: grid;
+            gap: 16px;
+        }
+
+        .progress-item {
+            margin-bottom: 20px;
+        }
+
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .progress-bar {
+            background: var(--border);
+            border-radius: 4px;
+            height: 2px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .progress-fill.global { background: var(--text-primary); }
+        .progress-fill.urgent-important { background: var(--accent-red); }
+        .progress-fill.not-urgent-important { background: var(--accent-green); }
+        .progress-fill.urgent-not-important { background: var(--accent-orange); }
+        .progress-fill.not-urgent-not-important { background: var(--accent-purple); }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .stat-card {
+            background: var(--glass-bg);
+            padding: 16px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 0.65rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Matriz principal */
+        .matrix-container {
+            background: var(--glass-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .matrix-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            height: 100%;
+        }
+
+        .quadrant {
+            background: var(--glass-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            min-height: 350px;
+            backdrop-filter: blur(20px);
+        }
+
+        .quadrant:hover {
+            background: var(--card-bg-opaque);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .quadrant::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+        }
+
+        .quadrant-1::before { background: var(--accent-red); }
+        .quadrant-2::before { background: var(--accent-green); }
+        .quadrant-3::before { background: var(--accent-orange); }
+        .quadrant-4::before { background: var(--accent-purple); }
+
+        .quadrant-header {
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .quadrant-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .quadrant-actions {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .clear-quadrant-btn {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            color: var(--accent-red);
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.65rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            opacity: 0;
+            transform: scale(0.9);
+        }
+
+        .reorganize-quadrant-btn {
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            color: var(--accent-purple);
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            opacity: 0;
+            transform: scale(0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 28px;
+        }
+
+        .quadrant:hover .clear-quadrant-btn,
+        .quadrant:hover .reorganize-quadrant-btn {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .reorganize-quadrant-btn:hover {
+            background: rgba(139, 92, 246, 0.2);
+            border-color: var(--accent-purple);
+            transform: scale(1.05);
+        }
+
+        .clear-quadrant-btn:hover {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: var(--accent-red);
+        }
+
+        .quadrant-title > div > div:first-child {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        .quadrant-subtitle {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .task-count {
+            background: var(--accent-blue);
+            color: var(--text-primary);
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            min-width: 24px;
+            text-align: center;
+        }
+
+        .tasks-container {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .task-item {
+            background: rgba(255, 255, 255, 0.02);
+            margin-bottom: 12px;
+            padding: 16px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: grab;
+            position: relative;
+        }
+
+        .task-item:hover {
+            background: var(--hover-bg);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .task-item.dragging {
+            opacity: 0.5;
+            cursor: grabbing;
+        }
+
+        .task-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+        }
+
+        .task-item.quadrant-1::before { background: var(--accent-red); }
+        .task-item.quadrant-2::before { background: var(--accent-green); }
+        .task-item.quadrant-3::before { background: var(--accent-orange); }
+        .task-item.quadrant-4::before { background: var(--accent-purple); }
+
+        .task-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .task-title {
+            font-weight: 400;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            line-height: 1.4;
+            flex-grow: 1;
+            margin-right: 12px;
+        }
+
+        .task-project {
+            background: var(--accent-blue);
+            color: var(--text-primary);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: 500;
+            white-space: nowrap;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .task-meta {
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .task-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .task-btn {
+            padding: 6px 12px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 0.65rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.02);
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .complete-btn:hover {
+            background: var(--accent-green);
+            color: var(--text-primary);
+            border-color: var(--accent-green);
+        }
+
+        .complete-btn.completed {
+            background: var(--text-secondary);
+            color: var(--text-primary);
+            border-color: var(--text-secondary);
+        }
+
+        .delete-btn:hover {
+            background: var(--accent-red);
+            color: var(--text-primary);
+            border-color: var(--accent-red);
+        }
+
+        .completed-task {
+            opacity: 0.4;
+        }
+
+        .completed-task .task-title {
+            text-decoration: line-through;
+        }
+
+        .clear-all-section {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+        }
+
+        .clear-all-btn {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            color: var(--accent-red);
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            width: 100%;
+        }
+
+        .clear-all-btn:hover {
+            background: rgba(239, 68, 68, 0.15);
+            border-color: var(--accent-red);
+        }
+
+        /* Drag and Drop */
+        .quadrant.drag-over {
+            border-color: var(--accent-blue);
+            background: rgba(59, 130, 246, 0.05);
+        }
+
+        /* Scrollbar minimalista */
+        .tasks-container::-webkit-scrollbar {
+            width: 3px;
+        }
+
+        .tasks-container::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .tasks-container::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 2px;
+        }
+
+        .tasks-container::-webkit-scrollbar-thumb:hover {
+            background: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            
+            .matrix-grid {
+                grid-template-columns: 1fr;
+                height: auto;
+            }
+            
+            .quadrant {
+                min-height: 300px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .app-container {
+                padding: 20px;
+                gap: 24px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .matrix-grid {
+                gap: 16px;
+            }
+
+            .install-banner {
+                font-size: 0.8rem;
+                padding: 10px 16px;
+            }
+
+            .install-banner button {
+                padding: 6px 12px;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Install PWA Banner -->
+    <div id="installBanner" class="install-banner">
+        <div>
+            📱 ¡Instala la app para una mejor experiencia!
+        </div>
+        <div>
+            <button id="installBtn">Instalar</button>
+            <button id="closeBannerBtn" class="close-btn">×</button>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <div class="header">
+            <h1>Matriz de Eisenhower</h1>
+            <p>Gestión inteligente de tareas con IA</p>
+            
+            <div class="timeline-card" id="timelineInfo" style="display: none;">
+                <h4>Cronograma del proyecto</h4>
+                <div class="timeline-bar">
+                    <div class="timeline-progress" id="timelineProgress"></div>
+                </div>
+                <div id="timelineText"></div>
+            </div>
+        </div>
+
+        <div class="main-layout">
+            <div class="sidebar">
+                <!-- API Configuration -->
+                <div class="bento-card api-section">
+                    <h3>Configuración IA</h3>
+                    <div class="api-input-group">
+                        <label for="apiKey">API Key OpenAI</label>
+                        <input type="password" id="apiKey" class="form-input" placeholder="sk-...">
+                        <div id="apiStatus" class="api-status" style="display: none;"></div>
+                    </div>
+                </div>
+
+                <!-- Project Information -->
+                <div class="bento-card">
+                    <h3>Proyecto</h3>
+                    <div class="form-group">
+                        <label for="projectName">Nombre</label>
+                        <input type="text" id="projectName" class="form-input" placeholder="Mi proyecto">
+                    </div>
+                    <div class="form-group">
+                        <label for="projectStart">Inicio</label>
+                        <input type="date" id="projectStart" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="projectEnd">Fecha límite</label>
+                        <input type="date" id="projectEnd" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="projectContext">Contexto del proyecto</label>
+                        <textarea id="projectContext" class="form-textarea" placeholder="Describe el contexto, objetivos, restricciones o información clave que ayude a la IA a clasificar mejor las tareas..."></textarea>
+                    </div>
+                </div>
+
+                <!-- Task Input -->
+                <div class="bento-card">
+                    <h3>Nueva tarea</h3>
+                    <div class="form-group">
+                        <label for="taskInput">Descripción</label>
+                        <input type="text" id="taskInput" class="form-input" placeholder="Describe la tarea...">
+                    </div>
+                    <button onclick="addTask()" class="primary-btn" id="addTaskBtn">Clasificar con IA</button>
+                    <div class="loading" id="loading">Analizando con OpenAI...</div>
+                </div>
+
+                <!-- Stats & Progress -->
+                <div class="bento-card">
+                    <h3>Progreso del proyecto</h3>
+                    <div class="stats-section">
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Progreso general</span>
+                                <span id="globalProgressText">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill global" id="globalProgress"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Críticas</span>
+                                <span id="q1ProgressText">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill urgent-important" id="q1Progress"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Importantes</span>
+                                <span id="q2ProgressText">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill not-urgent-important" id="q2Progress"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Urgentes</span>
+                                <span id="q3ProgressText">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill urgent-not-important" id="q3Progress"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-item">
+                            <div class="progress-label">
+                                <span>Menores</span>
+                                <span id="q4ProgressText">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill not-urgent-not-important" id="q4Progress"></div>
+                            </div>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-number" id="totalTasks">0</div>
+                                <div class="stat-label">Total</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" id="completedTasks">0</div>
+                                <div class="stat-label">Completadas</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" id="pendingTasks">0</div>
+                                <div class="stat-label">Pendientes</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" id="timeRemaining">--</div>
+                                <div class="stat-label">Días rest.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="share-section">
+                        <button onclick="shareApp()" class="share-btn" id="shareBtn">📱 Compartir App</button>
+                    </div>
+
+                    <div class="clear-all-section">
+                        <button onclick="clearAllTasks()" class="clear-all-btn">🗑️ Limpiar toda la matriz</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="matrix-container">
+                <div class="matrix-grid">
+                    <!-- Cuadrante 1: Hacer ahora -->
+                    <div class="quadrant quadrant-1" ondrop="drop(event, 'urgentImportant')" ondragover="allowDrop(event)">
+                        <div class="quadrant-header">
+                            <div class="quadrant-title">
+                                <div>
+                                    <div>Hacer ahora</div>
+                                    <div class="quadrant-subtitle">Urgente + Importante</div>
+                                </div>
+                                <div class="quadrant-actions">
+                                    <span class="task-count" id="count1">0</span>
+                                    <button onclick="reorganizeQuadrant('urgentImportant')" class="reorganize-quadrant-btn" title="Reorganizar por prioridad">🤖</button>
+                                    <button onclick="clearQuadrant('urgentImportant')" class="clear-quadrant-btn">Limpiar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tasks-container" id="tasks1"></div>
+                    </div>
+
+                    <!-- Cuadrante 2: Planificar -->
+                    <div class="quadrant quadrant-2" ondrop="drop(event, 'notUrgentImportant')" ondragover="allowDrop(event)">
+                        <div class="quadrant-header">
+                            <div class="quadrant-title">
+                                <div>
+                                    <div>Planificar</div>
+                                    <div class="quadrant-subtitle">No urgente + Importante</div>
+                                </div>
+                                <div class="quadrant-actions">
+                                    <span class="task-count" id="count2">0</span>
+                                    <button onclick="reorganizeQuadrant('notUrgentImportant')" class="reorganize-quadrant-btn" title="Reorganizar por prioridad">🤖</button>
+                                    <button onclick="clearQuadrant('notUrgentImportant')" class="clear-quadrant-btn">Limpiar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tasks-container" id="tasks2"></div>
+                    </div>
+
+                    <!-- Cuadrante 3: Delegar -->
+                    <div class="quadrant quadrant-3" ondrop="drop(event, 'urgentNotImportant')" ondragover="allowDrop(event)">
+                        <div class="quadrant-header">
+                            <div class="quadrant-title">
+                                <div>
+                                    <div>Delegar</div>
+                                    <div class="quadrant-subtitle">Urgente + No importante</div>
+                                </div>
+                                <div class="quadrant-actions">
+                                    <span class="task-count" id="count3">0</span>
+                                    <button onclick="reorganizeQuadrant('urgentNotImportant')" class="reorganize-quadrant-btn" title="Reorganizar por prioridad">🤖</button>
+                                    <button onclick="clearQuadrant('urgentNotImportant')" class="clear-quadrant-btn">Limpiar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tasks-container" id="tasks3"></div>
+                    </div>
+
+                    <!-- Cuadrante 4: Eliminar -->
+                    <div class="quadrant quadrant-4" ondrop="drop(event, 'notUrgentNotImportant')" ondragover="allowDrop(event)">
+                        <div class="quadrant-header">
+                            <div class="quadrant-title">
+                                <div>
+                                    <div>Eliminar</div>
+                                    <div class="quadrant-subtitle">No urgente + No importante</div>
+                                </div>
+                                <div class="quadrant-actions">
+                                    <span class="task-count" id="count4">0</span>
+                                    <button onclick="reorganizeQuadrant('notUrgentNotImportant')" class="reorganize-quadrant-btn" title="Reorganizar por prioridad">🤖</button>
+                                    <button onclick="clearQuadrant('notUrgentNotImportant')" class="clear-quadrant-btn">Limpiar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tasks-container" id="tasks4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let tasks = [];
+        let projectData = {
+            name: '',
+            startDate: null,
+            endDate: null,
+            context: ''
+        };
+        let apiKey = '';
+        let deferredPrompt;
+
+        // PWA Installation Logic
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            showInstallBanner();
+        });
+
+        function showInstallBanner() {
+            const banner = document.getElementById('installBanner');
+            if (banner && !localStorage.getItem('installBannerDismissed')) {
+                banner.classList.add('show');
+                document.body.classList.add('has-install-banner');
+            }
+        }
+
+        function hideInstallBanner() {
+            const banner = document.getElementById('installBanner');
+            if (banner) {
+                banner.classList.remove('show');
+                document.body.classList.remove('has-install-banner');
+            }
+        }
+
+        // Install button click handler
+        document.getElementById('installBtn').addEventListener('click', async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                const result = await deferredPrompt.userChoice;
+                if (result.outcome === 'accepted') {
+                    console.log('PWA installed');
+                }
+                deferredPrompt = null;
+                hideInstallBanner();
+            }
+        });
+
+        // Close banner button
+        document.getElementById('closeBannerBtn').addEventListener('click', () => {
+            hideInstallBanner();
+            localStorage.setItem('installBannerDismissed', 'true');
+        });
+
+        // Share functionality
+        async function shareApp() {
+            const shareData = {
+                title: 'Matriz de Eisenhower PRO',
+                text: '¡Prueba esta increíble app para gestionar tareas con IA!',
+                url: window.location.href
+            };
+
+            if (navigator.share) {
+                try {
+                    await navigator.share(shareData);
+                } catch (error) {
+                    console.log('Error sharing:', error);
+                    fallbackShare();
+                }
+            } else {
+                fallbackShare();
+            }
+        }
+
+        function fallbackShare() {
+            const url = window.location.href;
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(url).then(() => {
+                    alert('¡Enlace copiado al portapapeles!\n\nCompártelo con tus contactos.');
+                });
+            } else {
+                // Fallback para navegadores más antiguos
+                const textArea = document.createElement('textarea');
+                textArea.value = url;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('¡Enlace copiado al portapapeles!\n\nCompártelo con tus contactos.');
+            }
+        }
+
+        // Service Worker Registration - Solo si está servido desde un servidor real
+        if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
+            // Verificar si estamos en un entorno que soporte SW
+            const isLocalhost = window.location.hostname === 'localhost' || 
+                               window.location.hostname === '127.0.0.1' ||
+                               window.location.hostname === '[::1]';
+            
+            const isHTTPS = window.location.protocol === 'https:';
+            
+            if (isHTTPS || isLocalhost) {
+                console.log('PWA: Service Worker disponible pero no registrado desde archivo local');
+                // En producción, aquí registrarías un archivo sw.js real
+                // navigator.serviceWorker.register('/sw.js')
+            }
+        }
+
+        // Inicializar la aplicación
+        document.addEventListener('DOMContentLoaded', function() {
+            loadTasks();
+            loadApiKey();
+            setupEventListeners();
+            updateUI();
+            
+            // Mostrar banner de instalación si es aplicable
+            setTimeout(() => {
+                if (!window.matchMedia('(display-mode: standalone)').matches && 
+                    !localStorage.getItem('installBannerDismissed') &&
+                    window.location.protocol !== 'file:') {
+                    showInstallBanner();
+                }
+            }, 3000);
+        });
+
+        function setupEventListeners() {
+            // Listeners para campos del proyecto
+            const projectName = document.getElementById('projectName');
+            const projectStart = document.getElementById('projectStart');
+            const projectEnd = document.getElementById('projectEnd');
+            const projectContext = document.getElementById('projectContext');
+            const apiKeyInput = document.getElementById('apiKey');
+            
+            if (projectName) projectName.addEventListener('input', updateProjectInfo);
+            if (projectStart) projectStart.addEventListener('change', updateProjectInfo);
+            if (projectEnd) projectEnd.addEventListener('change', updateProjectInfo);
+            if (projectContext) projectContext.addEventListener('input', updateProjectInfo);
+            if (apiKeyInput) apiKeyInput.addEventListener('input', updateApiKey);
+            
+            // Listener para Enter en el input de tarea
+            const taskInput = document.getElementById('taskInput');
+            if (taskInput) {
+                taskInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        addTask();
+                    }
+                });
+            }
+        }
+
+        function updateApiKey() {
+            const apiKeyInput = document.getElementById('apiKey');
+            const apiStatus = document.getElementById('apiStatus');
+            const addTaskBtn = document.getElementById('addTaskBtn');
+            
+            if (apiKeyInput) {
+                apiKey = apiKeyInput.value.trim();
+                localStorage.setItem('openaiApiKey', apiKey);
+                
+                if (apiKey && apiKey.startsWith('sk-')) {
+                    apiStatus.className = 'api-status connected';
+                    apiStatus.textContent = 'Conectado correctamente';
+                    apiStatus.style.display = 'block';
+                    addTaskBtn.disabled = false;
+                } else if (apiKey) {
+                    apiStatus.className = 'api-status error';
+                    apiStatus.textContent = 'API Key inválida';
+                    apiStatus.style.display = 'block';
+                    addTaskBtn.disabled = true;
+                } else {
+                    apiStatus.style.display = 'none';
+                    addTaskBtn.disabled = true;
+                }
+            }
+        }
+
+        function loadApiKey() {
+            const saved = localStorage.getItem('openaiApiKey');
+            if (saved) {
+                const apiKeyInput = document.getElementById('apiKey');
+                if (apiKeyInput) {
+                    apiKeyInput.value = saved;
+                    updateApiKey();
+                }
+            }
+        }
+
+        function updateProjectInfo() {
+            const projectNameEl = document.getElementById('projectName');
+            const projectStartEl = document.getElementById('projectStart');
+            const projectEndEl = document.getElementById('projectEnd');
+            const projectContextEl = document.getElementById('projectContext');
+            
+            if (projectNameEl) projectData.name = projectNameEl.value;
+            if (projectStartEl) projectData.startDate = projectStartEl.value;
+            if (projectEndEl) projectData.endDate = projectEndEl.value;
+            if (projectContextEl) projectData.context = projectContextEl.value;
+            
+            saveProjectData();
+            updateTimeline();
+            updateUI();
+        }
+
+        function updateTimeline() {
+            const timelineInfo = document.getElementById('timelineInfo');
+            const timelineProgress = document.getElementById('timelineProgress');
+            const timelineText = document.getElementById('timelineText');
+            const timeRemainingElement = document.getElementById('timeRemaining');
+
+            if (!timelineInfo || !timelineProgress || !timelineText || !timeRemainingElement) return;
+
+            if (projectData.startDate && projectData.endDate) {
+                const startDate = new Date(projectData.startDate + 'T00:00:00');
+                const endDate = new Date(projectData.endDate + 'T23:59:59');
+                const now = new Date();
+                
+                const totalTime = endDate.getTime() - startDate.getTime();
+                const elapsedTime = now.getTime() - startDate.getTime();
+                const remainingTime = endDate.getTime() - now.getTime();
+                
+                let progressPercent = 0;
+                let statusText = '';
+                
+                if (now < startDate) {
+                    // Proyecto no ha comenzado
+                    const timeToStart = startDate.getTime() - now.getTime();
+                    const daysToStart = Math.ceil(timeToStart / (1000 * 60 * 60 * 24));
+                    
+                    progressPercent = 0;
+                    statusText = `Inicia en ${daysToStart} días`;
+                    timeRemainingElement.textContent = `${daysToStart}d`;
+                } else if (now > endDate) {
+                    // Proyecto terminado
+                    const overTime = now.getTime() - endDate.getTime();
+                    const daysOver = Math.floor(overTime / (1000 * 60 * 60 * 24));
+                    
+                    progressPercent = 100;
+                    statusText = `Vencido hace ${daysOver} días`;
+                    timeRemainingElement.textContent = '¡Vencido!';
+                } else {
+                    // Proyecto en curso
+                    const remainingDays = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+                    const remainingHours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    
+                    progressPercent = Math.max(0, Math.min(100, (elapsedTime / totalTime) * 100));
+                    
+                    if (remainingDays > 0) {
+                        statusText = `Quedan ${remainingDays} días y ${remainingHours} horas`;
+                        timeRemainingElement.textContent = `${remainingDays}d ${remainingHours}h`;
+                    } else if (remainingHours > 0) {
+                        const remainingMinutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+                        statusText = `Quedan ${remainingHours} horas y ${remainingMinutes} minutos`;
+                        timeRemainingElement.textContent = `${remainingHours}h ${remainingMinutes}m`;
+                    } else {
+                        const remainingMinutes = Math.floor(remainingTime / (1000 * 60));
+                        statusText = `Quedan ${remainingMinutes} minutos`;
+                        timeRemainingElement.textContent = `${remainingMinutes}m`;
+                    }
+                }
+                
+                timelineProgress.style.width = progressPercent + '%';
+                timelineText.textContent = statusText;
+                timelineInfo.style.display = 'block';
+            } else {
+                timelineInfo.style.display = 'none';
+                timeRemainingElement.textContent = '--';
+            }
+        }
+
+        async function classifyTaskWithAI(taskText, projectName, projectStartDate, projectEndDate, projectContext) {
+            const contextSection = projectContext ? `
+CONTEXTO ADICIONAL DEL PROYECTO:
+${projectContext}
+` : '';
+
+            const prompt = `
+Eres un experto en productividad y gestión de tareas. Analiza la siguiente tarea y clasifícala según la Matriz de Eisenhower.
+
+INFORMACIÓN DEL PROYECTO:
+- Nombre: ${projectName}
+- Fecha inicio: ${projectStartDate || 'No especificada'}
+- Fecha límite: ${projectEndDate || 'No especificada'}
+${contextSection}
+TAREA A ANALIZAR: "${taskText}"
+
+INSTRUCCIONES:
+1. Clasifica la tarea en UNA de estas categorías:
+   - urgentImportant: Urgente + Importante (hacer ahora)
+   - notUrgentImportant: No urgente + Importante (planificar)
+   - urgentNotImportant: Urgente + No importante (delegar)
+   - notUrgentNotImportant: No urgente + No importante (eliminar)
+
+2. Sugiere una fecha límite realista para esta tarea (formato YYYY-MM-DD)
+
+3. Proporciona un razonamiento claro de tu clasificación considerando el contexto del proyecto
+
+Responde SOLO con un JSON válido en este formato exacto:
+{
+  "category": "urgentImportant",
+  "suggestedDueDate": "2024-01-15",
+  "reasoning": "Esta tarea es urgente porque..."
+}
+`;
+
+            const response = await fetch('https://api.openai.com/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiKey}`
+                },
+                body: JSON.stringify({
+                    model: 'gpt-3.5-turbo',
+                    messages: [
+                        {
+                            role: 'user',
+                            content: prompt
+                        }
+                    ],
+                    max_tokens: 300,
+                    temperature: 0.3
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error(`Error de API: ${response.status} ${response.statusText}`);
+            }
+
+            const data = await response.json();
+            const aiResponse = data.choices[0].message.content.trim();
+            
+            try {
+                return JSON.parse(aiResponse);
+            } catch (e) {
+                // Si no puede parsear el JSON, usar clasificación de respaldo
+                console.log('Respuesta de IA no válida, usando clasificación de respaldo');
+                return {
+                    category: 'notUrgentNotImportant',
+                    suggestedDueDate: null,
+                    reasoning: 'Clasificación automática por error de IA'
+                };
+            }
+        }
+
+        // Función para reorganizar tareas dentro de un cuadrante específico
+        async function reorganizeQuadrant(quadrant) {
+            const quadrantTasks = tasks.filter(t => t.quadrant === quadrant && !t.completed);
+            
+            if (quadrantTasks.length < 2) {
+                alert('Necesitas al menos 2 tareas pendientes en este cuadrante para reorganizar.');
+                return;
+            }
+
+            if (!apiKey || !apiKey.startsWith('sk-')) {
+                alert('Por favor, configura tu API Key de OpenAI primero.');
+                return;
+            }
+
+            const loading = document.getElementById('loading');
+            loading.style.display = 'block';
+
+            try {
+                const taskDescriptions = quadrantTasks.map(t => t.text).join('\n- ');
+                
+                const quadrantNames = {
+                    'urgentImportant': 'Hacer ahora (Urgente + Importante)',
+                    'notUrgentImportant': 'Planificar (No urgente + Importante)', 
+                    'urgentNotImportant': 'Delegar (Urgente + No importante)',
+                    'notUrgentNotImportant': 'Eliminar (No urgente + No importante)'
+                };
+
+                const contextSection = projectData.context ? `
+CONTEXTO DEL PROYECTO: ${projectData.context}
+` : '';
+
+                const prompt = `
+Eres un experto en productividad. Tienes estas tareas en el cuadrante "${quadrantNames[quadrant]}" de la Matriz de Eisenhower:
+
+- ${taskDescriptions}
+
+INFORMACIÓN DEL PROYECTO:
+- Nombre: ${projectData.name}
+- Fecha inicio: ${projectData.startDate || 'No especificada'}
+- Fecha límite: ${projectData.endDate || 'No especificada'}
+${contextSection}
+INSTRUCCIONES:
+1. Ordénalas por prioridad DENTRO de este cuadrante (de mayor a menor importancia)
+2. Considera: impacto, complejidad, dependencias, fechas límite, recursos necesarios y el contexto del proyecto
+3. Asigna un número de prioridad del 1 al ${quadrantTasks.length} (1 = más prioritaria)
+
+Responde SOLO con un JSON válido:
+{
+  "prioritizedTasks": [
+    {
+      "taskText": "Texto exacto de la tarea",
+      "priority": 1,
+      "reasoning": "Razón de la prioridad"
+    }
+  ]
+}
+`;
+
+                const response = await fetch('https://api.openai.com/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: 'gpt-3.5-turbo',
+                        messages: [{ role: 'user', content: prompt }],
+                        max_tokens: 500,
+                        temperature: 0.3
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Error de API: ${response.status}`);
+                }
+
+                const data = await response.json();
+                const aiResponse = data.choices[0].message.content.trim();
+                const result = JSON.parse(aiResponse);
+
+                // Aplicar las nuevas prioridades
+                result.prioritizedTasks.forEach(prioritizedTask => {
+                    const task = quadrantTasks.find(t => 
+                        t.text.toLowerCase().includes(prioritizedTask.taskText.toLowerCase()) || 
+                        prioritizedTask.taskText.toLowerCase().includes(t.text.toLowerCase())
+                    );
+                    if (task) {
+                        task.priority = prioritizedTask.priority;
+                        task.priorityReasoning = prioritizedTask.reasoning;
+                    }
+                });
+
+                saveTasks();
+                updateUI();
+                
+                alert(`✅ Cuadrante reorganizado!\n${result.prioritizedTasks.length} tareas fueron priorizadas.`);
+
+            } catch (error) {
+                console.error('Error reorganizando cuadrante:', error);
+                alert('Error al reorganizar: ' + error.message);
+            } finally {
+                loading.style.display = 'none';
+            }
+        }
+
+        async function addTask() {
+            const taskInput = document.getElementById('taskInput');
+            const loading = document.getElementById('loading');
+            const addTaskBtn = document.getElementById('addTaskBtn');
+            
+            if (!taskInput || !loading) return;
+            
+            const taskText = taskInput.value.trim();
+            const projectName = projectData.name.trim();
+            
+            if (!taskText) {
+                alert('Por favor, escribe una tarea');
+                return;
+            }
+            
+            if (!projectName) {
+                alert('Por favor, ingresa el nombre del proyecto');
+                return;
+            }
+
+            if (!apiKey || !apiKey.startsWith('sk-')) {
+                alert('Por favor, configura tu API Key de OpenAI');
+                return;
+            }
+
+            loading.style.display = 'block';
+            addTaskBtn.disabled = true;
+
+            try {
+                const aiResult = await classifyTaskWithAI(
+                    taskText, 
+                    projectName, 
+                    projectData.startDate, 
+                    projectData.endDate,
+                    projectData.context
+                );
+
+                const newTask = {
+                    id: Date.now(),
+                    text: taskText,
+                    project: projectName,
+                    quadrant: aiResult.category,
+                    dueDate: aiResult.suggestedDueDate || '',
+                    reasoning: aiResult.reasoning,
+                    completed: false,
+                    createdAt: new Date().toISOString()
+                };
+
+                tasks.push(newTask);
+                saveTasks();
+                updateUI();
+                
+                taskInput.value = '';
+                
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error al clasificar la tarea: ' + error.message + '\n\nVerifica tu API Key.');
+            } finally {
+                loading.style.display = 'none';
+                addTaskBtn.disabled = false;
+            }
+        }
+
+        function deleteTask(taskId) {
+            if (confirm('¿Eliminar esta tarea?')) {
+                tasks = tasks.filter(task => task.id !== taskId);
+                saveTasks();
+                updateUI();
+            }
+        }
+
+        function toggleTaskComplete(taskId) {
+            const task = tasks.find(t => t.id === taskId);
+            if (task) {
+                task.completed = !task.completed;
+                saveTasks();
+                updateUI();
+            }
+        }
+
+        // Drag and Drop Functions
+        function allowDrop(ev) {
+            ev.preventDefault();
+            ev.currentTarget.classList.add('drag-over');
+        }
+
+        function drop(ev, newQuadrant) {
+            ev.preventDefault();
+            ev.currentTarget.classList.remove('drag-over');
+            
+            const taskId = parseInt(ev.dataTransfer.getData("text"));
+            const task = tasks.find(t => t.id === taskId);
+            
+            if (task && task.quadrant !== newQuadrant) {
+                task.quadrant = newQuadrant;
+                saveTasks();
+                updateUI();
+            }
+        }
+
+        function dragStart(ev, taskId) {
+            ev.dataTransfer.setData("text", taskId);
+            ev.target.classList.add('dragging');
+        }
+
+        function dragEnd(ev) {
+            ev.target.classList.remove('dragging');
+            // Remove drag-over class from all quadrants
+            document.querySelectorAll('.quadrant').forEach(q => q.classList.remove('drag-over'));
+        }
+
+        function updateUI() {
+            updateTaskCounts();
+            updateProgressBars();
+            updateTaskLists();
+            updateStats();
+        }
+
+        function updateTaskCounts() {
+            const counts = {
+                urgentImportant: 0,
+                notUrgentImportant: 0,
+                urgentNotImportant: 0,
+                notUrgentNotImportant: 0
+            };
+
+            tasks.forEach(task => {
+                counts[task.quadrant]++;
+            });
+
+            const count1 = document.getElementById('count1');
+            const count2 = document.getElementById('count2');
+            const count3 = document.getElementById('count3');
+            const count4 = document.getElementById('count4');
+
+            if (count1) count1.textContent = counts.urgentImportant;
+            if (count2) count2.textContent = counts.notUrgentImportant;
+            if (count3) count3.textContent = counts.urgentNotImportant;
+            if (count4) count4.textContent = counts.notUrgentNotImportant;
+        }
+
+        function updateProgressBars() {
+            const totalTasks = tasks.length;
+            const completedTasks = tasks.filter(t => t.completed).length;
+            
+            const globalProgress = totalTasks > 0 ? (completedTasks / totalTasks) * 100 : 0;
+            
+            const globalProgressEl = document.getElementById('globalProgress');
+            const globalProgressTextEl = document.getElementById('globalProgressText');
+            
+            if (globalProgressEl) globalProgressEl.style.width = globalProgress + '%';
+            if (globalProgressTextEl) globalProgressTextEl.textContent = Math.round(globalProgress) + '%';
+
+            // Progress por cuadrante
+            const quadrants = ['urgentImportant', 'notUrgentImportant', 'urgentNotImportant', 'notUrgentNotImportant'];
+            const quadrantIds = ['q1', 'q2', 'q3', 'q4'];
+            
+            quadrants.forEach((quadrant, index) => {
+                const quadrantTasks = tasks.filter(t => t.quadrant === quadrant);
+                const quadrantCompleted = quadrantTasks.filter(t => t.completed).length;
+                const quadrantProgress = quadrantTasks.length > 0 ? (quadrantCompleted / quadrantTasks.length) * 100 : 0;
+                
+                const progressEl = document.getElementById(quadrantIds[index] + 'Progress');
+                const progressTextEl = document.getElementById(quadrantIds[index] + 'ProgressText');
+                
+                if (progressEl) progressEl.style.width = quadrantProgress + '%';
+                if (progressTextEl) progressTextEl.textContent = Math.round(quadrantProgress) + '%';
+            });
+        }
+
+        function updateTaskLists() {
+            const taskContainers = {
+                urgentImportant: document.getElementById('tasks1'),
+                notUrgentImportant: document.getElementById('tasks2'),
+                urgentNotImportant: document.getElementById('tasks3'),
+                notUrgentNotImportant: document.getElementById('tasks4')
+            };
+
+            // Limpiar contenedores
+            Object.values(taskContainers).forEach(container => {
+                if (container) container.innerHTML = '';
+            });
+
+            // Agrupar tareas por cuadrante y ordenar por prioridad
+            Object.keys(taskContainers).forEach(quadrant => {
+                const quadrantTasks = tasks.filter(t => t.quadrant === quadrant);
+                
+                // Ordenar por prioridad (si existe) y luego por fecha de creación
+                quadrantTasks.sort((a, b) => {
+                    // Completadas al final
+                    if (a.completed && !b.completed) return 1;
+                    if (!a.completed && b.completed) return -1;
+                    
+                    // Si ambas están pendientes, ordenar por prioridad
+                    if (!a.completed && !b.completed) {
+                        if (a.priority && b.priority) {
+                            return a.priority - b.priority;
+                        }
+                        if (a.priority && !b.priority) return -1;
+                        if (!a.priority && b.priority) return 1;
+                    }
+                    
+                    // Si no hay prioridad, ordenar por fecha de creación
+                    return new Date(a.createdAt) - new Date(b.createdAt);
+                });
+
+                const container = taskContainers[quadrant];
+                if (container) {
+                    quadrantTasks.forEach(task => {
+                        const taskElement = createTaskElement(task);
+                        if (taskElement) {
+                            container.appendChild(taskElement);
+                        }
+                    });
+                }
+            });
+        }
+
+        function createTaskElement(task) {
+            const div = document.createElement('div');
+            div.className = 'task-item quadrant-' + getQuadrantNumber(task.quadrant) + (task.completed ? ' completed-task' : '');
+            div.draggable = true;
+            div.ondragstart = (ev) => dragStart(ev, task.id);
+            div.ondragend = dragEnd;
+            
+            const dueDateText = task.dueDate ? new Date(task.dueDate).toLocaleDateString('es-ES') : 'Sin fecha límite';
+            
+            // Información de prioridad
+            const priorityText = task.priority ? `Prioridad: #${task.priority}` : '';
+            const priorityReasoning = task.priorityReasoning ? `<br>${task.priorityReasoning}` : '';
+            const reasoningText = task.reasoning ? '<br>' + task.reasoning : '';
+            
+            const metaText = [dueDateText, priorityText].filter(Boolean).join(' • ') + reasoningText + priorityReasoning;
+            
+            div.innerHTML = 
+                '<div class="task-header">' +
+                    '<div class="task-title">' + 
+                        (task.priority ? `<span style="color: var(--accent-purple); font-weight: 600; margin-right: 8px;">#${task.priority}</span>` : '') +
+                        task.text + 
+                    '</div>' +
+                    '<div class="task-project">' + task.project + '</div>' +
+                '</div>' +
+                '<div class="task-meta">' +
+                    metaText +
+                '</div>' +
+                '<div class="task-actions">' +
+                    '<button onclick="toggleTaskComplete(' + task.id + ')" class="task-btn complete-btn ' + (task.completed ? 'completed' : 'pending') + '">' +
+                        (task.completed ? 'Completada' : 'Completar') +
+                    '</button>' +
+                    '<button onclick="deleteTask(' + task.id + ')" class="task-btn delete-btn">Eliminar</button>' +
+                '</div>';
+            
+            return div;
+        }
+
+        function getQuadrantNumber(quadrant) {
+            const mapping = {
+                urgentImportant: 1,
+                notUrgentImportant: 2,
+                urgentNotImportant: 3,
+                notUrgentNotImportant: 4
+            };
+            return mapping[quadrant] || 1;
+        }
+
+        function updateStats() {
+            const total = tasks.length;
+            const completed = tasks.filter(t => t.completed).length;
+            const pending = total - completed;
+            
+            const totalTasksEl = document.getElementById('totalTasks');
+            const completedTasksEl = document.getElementById('completedTasks');
+            const pendingTasksEl = document.getElementById('pendingTasks');
+            
+            if (totalTasksEl) totalTasksEl.textContent = total;
+            if (completedTasksEl) completedTasksEl.textContent = completed;
+            if (pendingTasksEl) pendingTasksEl.textContent = pending;
+        }
+
+        function saveTasks() {
+            try {
+                localStorage.setItem('eisenhowerTasks', JSON.stringify(tasks));
+            } catch (error) {
+                console.error('Error saving tasks:', error);
+            }
+        }
+
+        function loadTasks() {
+            try {
+                const saved = localStorage.getItem('eisenhowerTasks');
+                if (saved) {
+                    tasks = JSON.parse(saved);
+                }
+                
+                const savedProject = localStorage.getItem('eisenhowerProject');
+                if (savedProject) {
+                    projectData = JSON.parse(savedProject);
+                    const projectNameEl = document.getElementById('projectName');
+                    const projectStartEl = document.getElementById('projectStart');
+                    const projectEndEl = document.getElementById('projectEnd');
+                    const projectContextEl = document.getElementById('projectContext');
+                    
+                    if (projectNameEl) projectNameEl.value = projectData.name || '';
+                    if (projectStartEl) projectStartEl.value = projectData.startDate || '';
+                    if (projectEndEl) projectEndEl.value = projectData.endDate || '';
+                    if (projectContextEl) projectContextEl.value = projectData.context || '';
+                    updateTimeline();
+                }
+            } catch (error) {
+                console.error('Error loading tasks:', error);
+            }
+        }
+
+        function saveProjectData() {
+            try {
+                localStorage.setItem('eisenhowerProject', JSON.stringify(projectData));
+            } catch (error) {
+                console.error('Error saving project data:', error);
+            }
+        }
+
+        // Función para limpiar un cuadrante específico
+        function clearQuadrant(quadrant) {
+            console.log('Clearing quadrant:', quadrant); // Debug
+            
+            const quadrantNames = {
+                'urgentImportant': 'Hacer ahora',
+                'notUrgentImportant': 'Planificar',
+                'urgentNotImportant': 'Delegar',
+                'notUrgentNotImportant': 'Eliminar'
+            };
+            
+            const tasksInQuadrant = tasks.filter(t => t.quadrant === quadrant);
+            console.log('Tasks in quadrant:', tasksInQuadrant.length); // Debug
+            
+            if (tasksInQuadrant.length === 0) {
+                alert('No hay tareas en este cuadrante para limpiar.');
+                return;
+            }
+            
+            if (confirm(`¿Estás seguro de que deseas eliminar todas las ${tasksInQuadrant.length} tareas del cuadrante "${quadrantNames[quadrant]}"?`)) {
+                tasks = tasks.filter(task => task.quadrant !== quadrant);
+                saveTasks();
+                updateUI();
+                console.log('Quadrant cleared'); // Debug
+            }
+        }
+
+        // Función para limpiar toda la matriz
+        function clearAllTasks() {
+            console.log('Clearing all tasks, current count:', tasks.length); // Debug
+            
+            if (tasks.length === 0) {
+                alert('No hay tareas para limpiar.');
+                return;
+            }
+            
+            if (confirm(`¿Estás seguro de que deseas eliminar TODAS las ${tasks.length} tareas de la matriz? Esta acción no se puede deshacer.`)) {
+                tasks = [];
+                saveTasks();
+                updateUI();
+                console.log('All tasks cleared'); // Debug
+            }
+        }
+    </script>
+</body>
+</html>
